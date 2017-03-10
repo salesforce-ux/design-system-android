@@ -1,0 +1,37 @@
+{
+  "name": "design-system-ios",
+  "version": "3.0.5",
+  "repository": "https://github.com/salesforce-ux/design-system-ios.git",
+  "license": "SEE LICENSE IN README.md",
+  "description": "Lightning Design System tokens, icons and fonts for iOS",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "gulp",
+    "test": "mocha"
+  },
+  "author": "Salesforce UX",
+  "dependencies": {
+    "@salesforce-ux/design-system": "^2.2.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-data": "^1.2.1",
+    "gulp-edit-xml": "^2.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-iconfont": "^8.0.1",
+    "gulp-json-concat": "0.0.5",
+    "gulp-json-format": "^1.0.0",
+    "gulp-nunjucks": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgo": "^1.0.3",
+    "gulp-yaml": "^1.0.1",
+    "gutil": "^1.6.4",
+    "lodash": "^4.17.4",
+    "merge2": "^1.0.2",
+    "mocha": "^3.2.0",
+    "run-sequence": "^1.2.2",
+    "theo": "^5.0.0-beta.1",
+    "through2": "^2.0.1"
+  }
+}

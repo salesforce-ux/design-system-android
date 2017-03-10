@@ -1,0 +1,11 @@
+<!-- Copyright (c) 2015-present, salesforce.com, inc. All rights reserved -->
+<!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Colors -->
+{% for categoryName, category in data.Color %}<!-- {{categoryName}} -->
+	{% for color in category %}<color name="SLDS_{{color.name}}" category="{{categoryName}}">{{color.value}}</color>
+	{% endfor %}
+{% endfor %}
+ </resources>
