@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 <!-- ## [Unreleased] -->
 
-## 3.0.0 - 3/8/2017
-With the introduction of the 3.0.0 release of the SLDS iOS library, there were a fair amount of API changes. Where possible functions were marked as deprecated but not everywhere. The new library aimed to add simplicity wherever possible.
+## 3.0.0 - 3/13/2017
+With the introduction of the 3.0.0 release of the SLDS iOS library, developers can now access SLDS icons.
 
 [Readme.md](https://github.com/salesforce-ux/design-system-windows/blob/master/README.md)
 
@@ -22,7 +22,7 @@ With the introduction of the 3.0.0 release of the SLDS iOS library, there were a
 -  Comprehensive rewrite of the library generation gulp scripts
 -  File templates have been ported to nunjunks
 -  Consolidated all icons into a single icon font
--  Consolidated SLDS Token values to SLDSTokens.ms.xaml
+-  Consolidated SLDS Token values to force-base.android.color.xml and force-base.android.dimen.xml
 
 ## Pre 3.0.0
 

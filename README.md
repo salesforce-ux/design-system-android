@@ -1,6 +1,6 @@
-# Lightning Design System tokens, icons and fonts for Windows
+# Lightning Design System tokens, icons and fonts for Android
 
-MS XAML configuration files for [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/) [Tokens](https://www.lightningdesignsystem.com/design-tokens/).
+XML configuration and java files for [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/) [Tokens](https://www.lightningdesignsystem.com/design-tokens/).
 
 Current release: Spring ’17
 
@@ -9,7 +9,7 @@ Current release: Spring ’17
 
 ## Sample Application 
 
-See [Demo App](https://github.com/salesforce-ux/design-system-windows/tree/master/Salesforce.SLDS.Windows.SampleApp)
+See [Demo App](https://github.com/salesforce-ux/design-system-android/tree/master/????)
 
 ### Examples
 

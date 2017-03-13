@@ -11,6 +11,7 @@
 
 <!-- Icon Background Colors -->
 <!-- Note: Utility icons do not have background colors -->
+
 {% for type, iconSet in icons %}{% if not('utility' in type) %}<!-- {{type | capitalize}} icon background colors -->
 {% for icon in iconSet %}
 	<color name="SLDS_ICON_{{icon.backgroundColorName}}" category="icon-background-color">{{icon.backgroundColor}}</color>{% endfor %}{% endif %}
