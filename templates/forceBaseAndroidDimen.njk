@@ -1,19 +1,11 @@
 <!-- Copyright (c) 2015-present, salesforce.com, inc. All rights reserved -->
 <!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 <!-- Sizes -->
 {% for categoryName, category in data.Size %}<!-- {{categoryName}} -->
 	{% for size in category %}<x:Double x:Key="SLDS_{{size.name}}">{{size.value | replace("px", "")}}</x:Double>
 	{% endfor %}
 {% endfor %}
-<!-- Thickness -->
-
-{% for categoryName, category in data.Size %}{% for size in category %}{% if (size.expand == true) %}{% set value = size.value | replace("px", "") %} 
-	<Thickness x:Key="SLDS_{{size.name}}_THICKNESS_RIGHT">0,0,{{value}},0</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_LEFT_RIGHT">{{value}},0,{{value}},0</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_LEFT">{{value}},0,0,0</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_TOP">0,{{value}},0,0</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_TOP_BOTTOM">0,{{value}},0,{{value}}</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_BOTTOM">0,0,0,{{value}}</Thickness>
-    <Thickness x:Key="SLDS_{{size.name}}_THICKNESS_ALL">{{value}},{{value}},{{value}},{{value}}</Thickness>
-    {% endif %}{% endfor %}{% endfor %}
+ </resources>

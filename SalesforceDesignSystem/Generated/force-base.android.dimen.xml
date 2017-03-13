@@ -1,6 +1,8 @@
 <!-- Copyright (c) 2015-present, salesforce.com, inc. All rights reserved -->
 <!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 <!-- Sizes -->
 <!-- Spacing -->
 	<x:Double x:Key="SLDS_BORDER_WIDTH_THIN">1dp</x:Double>
@@ -88,5 +90,4 @@
 	<x:Double x:Key="SLDS_BORDER_RADIUS_CIRCLE">0.5dp</x:Double>
 	
 
-<!-- Thickness -->
-
+ </resources>
