@@ -97,27 +97,6 @@ const parseDesignTokens = () =>
     next(null, file);
   });
 
-// ------------------------------------------------------------------------------------------------ //
-
-gulp.task('template:design-tokens', () => {
-  let streams = [];
-
-  streams.push(
-    gulp.src(__PATHS__.templates + '/forceBaseAndroidColor.njk')
-      .pipe(nunjucks.compile({ 'data': data }))
-      .pipe(rename('force-base.android.color.xml'))
-  );
-
-  streams.push(
-    gulp.src(__PATHS__.templates + '/forceBaseAndroidDimen.njk')
-      .pipe(nunjucks.compile({ 'data': data }))
-      .pipe(rename('force-base.android.dimen.xml'))
-  );
-
-  return merge2(streams).pipe(gulp.dest(__PATHS__.output))
-});
-
-
 // Icons
 // ------------------------------------------------------------------------------------------------
 let icons = {};
@@ -198,7 +177,7 @@ const parseIcons = () =>
         iconNames.push(name);
         icons[iconType.name].push({
           'name' : name ,
-          'brushName' :  _.snakeCase(name).toUpperCase(),
+          'backgroundColorName' :  _.snakeCase(name).toUpperCase(),
           'backgroundColor' : backgroundColor,
           'unicode' : (59905+count).toString(16).toUpperCase()
         });
@@ -210,9 +189,25 @@ const parseIcons = () =>
 
 // ------------------------------------------------------------------------------------------------ //
 
-gulp.task('template:icons', () => {
+// ------------------------------------------------------------------------------------------------ //
+
+gulp.task('template:design-tokens', () => {
   let streams = [];
-  
+
+  streams.push(
+    gulp.src(__PATHS__.templates + '/forceBaseAndroidColor.njk')
+      .pipe(nunjucks.compile({ 
+        'data': data,
+        'icons': icons }))
+      .pipe(rename('force-base.android.color.xml'))
+  );
+
+  streams.push(
+    gulp.src(__PATHS__.templates + '/forceBaseAndroidDimen.njk')
+      .pipe(nunjucks.compile({ 'data': data }))
+      .pipe(rename('force-base.android.dimen.xml'))
+  );
+
   streams.push(
     gulp.src(__PATHS__.templates + '/IconNames.java.njk')
     .pipe(nunjucks.compile({ 
@@ -256,12 +251,14 @@ gulp.task('merge:icon-tokens', () => {
       .pipe(gulp.dest('./temp'))
 });
 
+// ------------------------------------------------------------------------------------------------ //
+
 gulp.task('parse:design-tokens', () =>
   gulp.src([path.resolve(__PATHS__.designTokens)])
     .pipe(parseDesignTokens()));
 
 gulp.task('default', () => {
-  runSequence('parse:design-tokens', 'minify:svgs', 'create:icon-fonts', 'merge:icon-tokens', 'parse:icons', 'template:design-tokens', 'template:icons', 'remove:temp')
+  runSequence('parse:design-tokens', 'minify:svgs', 'create:icon-fonts', 'merge:icon-tokens', 'parse:icons', 'template:design-tokens', 'remove:temp')
 });
 
 gulp.task('remove:temp', () => del(__PATHS__.temp, {force:true}));

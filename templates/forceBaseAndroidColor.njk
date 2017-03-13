@@ -8,4 +8,11 @@
 	{% for color in category %}<color name="SLDS_{{color.name}}" category="{{categoryName}}">{{color.value}}</color>
 	{% endfor %}
 {% endfor %}
+
+<!-- Icon Background Colors -->
+<!-- Note: Utility icons do not have background colors -->
+{% for type, iconSet in icons %}{% if not('utility' in type) %}<!-- {{type | capitalize}} icon background colors -->
+{% for icon in iconSet %}
+	<color name="SLDS_ICON_{{icon.backgroundColorName}}" category="icon-background-color">{{icon.backgroundColor}}</color>{% endfor %}{% endif %}
+{% endfor %}
  </resources>
