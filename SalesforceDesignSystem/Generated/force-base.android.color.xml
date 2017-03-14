@@ -277,6 +277,7 @@
 
 <!-- Icon Background Colors -->
 <!-- Note: Utility icons do not have background colors -->
+
 <!-- Action icon background colors -->
 
 	<color name="SLDS_ICON_ACTION_ADD_CONTACT" category="icon-background-color">#FFA094ED</color>
