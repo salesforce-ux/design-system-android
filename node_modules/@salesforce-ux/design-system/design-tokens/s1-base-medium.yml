@@ -1,7 +1,0 @@
-props:
-  WIDTH_STAGE_LEFT:
-    value: 250px
-    type: size
-    category: sizing
-    cssProperties:
-    - width
