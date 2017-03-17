@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) 2015-present, salesforce.com, inc. All rights reserved -->
 <!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
 
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- Colors -->
 <!-- Fill -->
@@ -10,7 +10,7 @@
 	<color name="SLDS_FILL_BRAND_ACTIVE" category="Fill">#FF16325C</color>
 	<color name="SLDS_FILL_HEADER_BUTTON" category="Fill">#FF9FAAB5</color>
 	<color name="SLDS_FILL_HEADER_BUTTON_HOVER" category="Fill">#FF005FB2</color>
-	
+
 <!-- BorderColor -->
 	<color name="SLDS_COLOR_BORDER" category="BorderColor">#FFD8DDE6</color>
 	<color name="SLDS_COLOR_BORDER_BRAND" category="BorderColor">#FF1589EE</color>
@@ -71,7 +71,7 @@
 	<color name="SLDS_PROGRESS_COLOR_BORDER_HOVER" category="BorderColor">#FF0070D2</color>
 	<color name="SLDS_PROGRESS_COLOR_BORDER_ACTIVE" category="BorderColor">#FF1589EE</color>
 	<color name="SLDS_SPLIT_VIEW_COLOR_BORDER" category="BorderColor">#FF2C3646</color>
-	
+
 <!-- BackgroundColor -->
 	<color name="SLDS_COLOR_BACKGROUND" category="BackgroundColor">#FFF4F6F9</color>
 	<color name="SLDS_COLOR_BACKGROUND_ALT" category="BackgroundColor">#FFFFFFFF</color>
@@ -197,7 +197,7 @@
 	<color name="SLDS_PROGRESS_BAR_COLOR_BACKGROUND_FILL" category="BackgroundColor">#FF5EB4FF</color>
 	<color name="SLDS_SPLIT_VIEW_COLOR_BACKGROUND" category="BackgroundColor">#FF333E4F</color>
 	<color name="SLDS_SPLIT_VIEW_COLOR_BACKGROUND_ROW_HOVER" category="BackgroundColor">#FF414C5E</color>
-	
+
 <!-- TextColor -->
 	<color name="SLDS_COLOR_TEXT_ACTION_LABEL" category="TextColor">#FF54698D</color>
 	<color name="SLDS_COLOR_TEXT_ACTION_LABEL_ACTIVE" category="TextColor">#FF16325C</color>
@@ -272,7 +272,7 @@
 	<color name="SLDS_COLOR_TEXT_CONTEXT_BAR" category="TextColor">#FF54698D</color>
 	<color name="SLDS_COLOR_TEXT_CONTEXT_BAR_INVERSE" category="TextColor">#FFFFFFFF</color>
 	<color name="SLDS_COLOR_TEXT_CONTEXT_BAR_ACTION_TRIGGER" category="TextColor">#66FFFFFF</color>
-	
+
 
 
 <!-- Icon Background Colors -->
