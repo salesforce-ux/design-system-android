@@ -1,4 +1,4 @@
-/// Copyright (c) 2015-present, salesforce.com, inc. All rights reserved 
+/// Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
 /// Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
 
 package com.salesforce.designsystem;
@@ -11,7 +11,7 @@ public abstract class IconNames {
 {% for type, iconSet in icons %}
 public static final class {{type | capitalize}}Icons {
 {% for icon in iconSet %}
-    public static final string {{icon.name | capitalize}} = "\u{{icon.unicode}}";{% endfor %}
+    public static final String {{icon.name | capitalize}} = "\u{{icon.unicode}}";{% endfor %}
 }
 {% endfor %}
 }
