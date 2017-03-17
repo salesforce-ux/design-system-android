@@ -27,7 +27,7 @@ const __PATHS__ = {
   designTokens: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'design-tokens', 'dist','force-base.ios.json'),
   iconTokens: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'design-tokens', 'dist'),
   icons: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'assets', 'icons'),
-  output: path.join(__dirname, 'SalesforceDesignSystem', 'Generated'),
+  outputAssets: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'assets'),
   outputRes: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'res', 'values'),
   outputSrc: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'java', 'com', 'salesforce', 'designsystem'),
   temp: path.join(__dirname, 'temp')
@@ -155,7 +155,7 @@ gulp.task('create:icon-fonts', () => {
       formats: ['ttf'],
       normalize: true
     }))
-    .pipe(gulp.dest(__PATHS__.output))
+    .pipe(gulp.dest(__PATHS__.outputAssets))
 });
 
 // ------------------------------------------------------------------------------------------------ //
@@ -269,4 +269,4 @@ gulp.task('default', () => {
 
 gulp.task('remove:temp', () => del(__PATHS__.temp, {force:true}));
 
-gulp.task('clean', () => del([__PATHS__.output, __PATHS__.temp], {force:true}));
+gulp.task('clean', () => del([__PATHS__.outputAssets, __PATHS__.outputRes, __PATHS__.outputSrc, __PATHS__.temp], {force:true}));
