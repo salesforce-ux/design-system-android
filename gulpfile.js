@@ -214,12 +214,12 @@ gulp.task('template:design-tokens', () => {
   );
 
   streams.push(
-    gulp.src(__PATHS__.templates + '/IconNames.java.njk')
+    gulp.src(__PATHS__.templates + '/Icons.java.njk')
     .pipe(nunjucks.compile({
       'icons': icons,
       'iconTypes':iconTypes
     }))
-    .pipe(rename('IconNames.java'))
+    .pipe(rename('Icons.java'))
     .pipe(gulp.dest(__PATHS__.outputSrc))
   );
 

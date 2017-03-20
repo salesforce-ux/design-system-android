@@ -1,0 +1,94 @@
+/// Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
+/// Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
+
+package com.salesforce.designsystem;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+
+/**
+ * Utility for generating Bitmaps from SLDS icons.
+ */
+
+public abstract class Icons {
+
+    public static Bitmap getBitmap(Context context, ActionIcons icon, int size) {
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+    }
+
+    public static Bitmap getBitmap(Context context, ActionIcons icon, int size, int color) {
+        Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bmp);
+
+        drawIconGlyph(context, icon.value, size, canvas, color);
+
+        return bmp;
+    }
+
+    public static Bitmap getBitmap(Context context, CustomIcons icon, int size) {
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+    }
+
+    public static Bitmap getBitmap(Context context, CustomIcons icon, int size, int color) {
+        Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bmp);
+
+        drawIconGlyph(context, icon.value, size, canvas, color);
+
+        return bmp;
+    }
+
+    public static Bitmap getBitmap(Context context, StandardIcons icon, int size) {
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+    }
+
+    public static Bitmap getBitmap(Context context, StandardIcons icon, int size, int color) {
+        Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bmp);
+
+        drawIconGlyph(context, icon.value, size, canvas, color);
+
+        return bmp;
+    }
+
+    public static Bitmap getBitmap(Context context, UtilityIcons icon, int size) {
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+    }
+
+    public static Bitmap getBitmap(Context context, UtilityIcons icon, int size, int color) {
+        Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bmp);
+
+        drawIconGlyph(context, icon.value, size, canvas, color);
+
+        return bmp;
+    }
+
+    private static void drawIconGlyph(Context context, String iconChar, int size, Canvas canvas, int color) {
+        Paint textPaint = new Paint();
+        textPaint.setFlags(Paint.ANTI_ALIAS_FLAG);
+        textPaint.setTextAlign(Paint.Align.CENTER);
+        textPaint.setColor(color);
+        textPaint.setTextSize(size);
+        textPaint.setTypeface(Typeface.createFromAsset(
+                context.getResources().getAssets(), "SalesforceDesignSystemIcons.ttf"));
+        float y = (size / 2.0f) - ((textPaint.descent() + textPaint.ascent()) / 2.0f);
+        canvas.drawText(iconChar, (size / 2.0f), y, textPaint);
+    }
+{% for type, iconSet in icons %}
+    public enum {{type | capitalize}}Icons {
+    {%- set comma = joiner() -%}
+    {%- for icon in iconSet -%}
+        {{ comma() }}
+        {{ icon.name }} ("\u{{ icon.unicode }}")
+    {%- endfor -%};
+
+        final String value;
+        {{ type | capitalize }}Icons(String value) { this.value = value; }
+    }
+{% endfor %}
+
+}
