@@ -1,3 +1,0 @@
-<aura:tokens>
-  <aura:token name="widthStageLeft" value="250px" property="width" />
-</aura:tokens>

@@ -27,7 +27,9 @@ const __PATHS__ = {
   designTokens: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'design-tokens', 'dist','force-base.ios.json'),
   iconTokens: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'design-tokens', 'dist'),
   icons: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'assets', 'icons'),
-  output: path.join(__dirname, 'SalesforceDesignSystem', 'Generated'),
+  outputAssets: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'assets'),
+  outputRes: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'res', 'values'),
+  outputSrc: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'java', 'com', 'salesforce', 'designsystem'),
   temp: path.join(__dirname, 'temp')
 };
 
@@ -80,7 +82,7 @@ const parseDesignTokens = () =>
       if (p.type == 'font-size') p.type = 'size';
       let t = format(p.type)
       if (types.indexOf(p.type) !== -1) {
-        
+
         if (!data[t].hasOwnProperty(format(p.category))) data[t][format(p.category)] = []
 
         if (p.category.indexOf('color') == -1 && p.category.indexOf('fill') == -1 )
@@ -153,7 +155,7 @@ gulp.task('create:icon-fonts', () => {
       formats: ['ttf'],
       normalize: true
     }))
-    .pipe(gulp.dest(__PATHS__.output))
+    .pipe(gulp.dest(__PATHS__.outputAssets))
 });
 
 // ------------------------------------------------------------------------------------------------ //
@@ -171,7 +173,7 @@ const parseIcons = () =>
       });
 
       let tokens = JSON.parse(file.contents.toString('utf-8'));
-      
+
       names.forEach(n => {
         let backgroundColor = iconType.name === 'utility' ? 'null' : parseColor(_.find(tokens[iconType.name].properties, { 'name': n }).value)
         let name = (iconType.name === 'action' || iconType.name === 'custom') ?  format(n) : format(iconType.name) + format(n)
@@ -197,28 +199,31 @@ gulp.task('template:design-tokens', () => {
 
   streams.push(
     gulp.src(__PATHS__.templates + '/forceBaseAndroidColor.njk')
-      .pipe(nunjucks.compile({ 
+      .pipe(nunjucks.compile({
         'data': data,
         'icons': icons }))
       .pipe(rename('force-base.android.color.xml'))
+      .pipe(gulp.dest(__PATHS__.outputRes))
   );
 
   streams.push(
     gulp.src(__PATHS__.templates + '/forceBaseAndroidDimen.njk')
       .pipe(nunjucks.compile({ 'data': data }))
       .pipe(rename('force-base.android.dimen.xml'))
+      .pipe(gulp.dest(__PATHS__.outputRes))
   );
 
   streams.push(
-    gulp.src(__PATHS__.templates + '/IconNames.java.njk')
-    .pipe(nunjucks.compile({ 
+    gulp.src(__PATHS__.templates + '/Icons.java.njk')
+    .pipe(nunjucks.compile({
       'icons': icons,
       'iconTypes':iconTypes
     }))
-    .pipe(rename('IconNames.java'))
+    .pipe(rename('Icons.java'))
+    .pipe(gulp.dest(__PATHS__.outputSrc))
   );
 
-  return merge2(streams).pipe(gulp.dest(__PATHS__.output))
+  return merge2(streams)
 });
 
 // ------------------------------------------------------------------------------------------------ //
@@ -264,4 +269,4 @@ gulp.task('default', () => {
 
 gulp.task('remove:temp', () => del(__PATHS__.temp, {force:true}));
 
-gulp.task('clean', () => del([__PATHS__.output, __PATHS__.temp], {force:true}));
+gulp.task('clean', () => del([__PATHS__.outputAssets, __PATHS__.outputRes, __PATHS__.outputSrc, __PATHS__.temp], {force:true}));

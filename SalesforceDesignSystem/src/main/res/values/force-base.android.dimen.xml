@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2015-present, salesforce.com, inc. All rights reserved -->
+<!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
+
+<resources>
+<!-- Sizes -->
+<!-- Spacing -->
+	<dimen name="SLDS_BORDER_WIDTH_THIN">1dp</dimen>
+	<dimen name="SLDS_BORDER_WIDTH_THICK">2dp</dimen>
+	<dimen name="SLDS_BORDER_STROKE_WIDTH_THIN">1dp</dimen>
+	<dimen name="SLDS_BORDER_STROKE_WIDTH_THICK">2dp</dimen>
+	<dimen name="SLDS_SPACING_NONE">0dp</dimen>
+	<dimen name="SLDS_SPACING_XXX_SMALL">2dp</dimen>
+	<dimen name="SLDS_SPACING_XX_SMALL">4dp</dimen>
+	<dimen name="SLDS_SPACING_X_SMALL">8dp</dimen>
+	<dimen name="SLDS_SPACING_SMALL">12dp</dimen>
+	<dimen name="SLDS_SPACING_MEDIUM">16dp</dimen>
+	<dimen name="SLDS_SPACING_LARGE">24dp</dimen>
+	<dimen name="SLDS_SPACING_X_LARGE">32dp</dimen>
+	<dimen name="SLDS_SPACING_XX_LARGE">48dp</dimen>
+	<dimen name="SLDS_CARD_SPACING_SMALL">12dp</dimen>
+	<dimen name="SLDS_CARD_SPACING_MEDIUM">16dp</dimen>
+	<dimen name="SLDS_CARD_SPACING_LARGE">24dp</dimen>
+	<dimen name="SLDS_TABLE_SPACING_X_SMALL">8dp</dimen>
+
+<!-- Sizing -->
+	<dimen name="SLDS_SIZE_XX_SMALL">96dp</dimen>
+	<dimen name="SLDS_SIZE_X_SMALL">192dp</dimen>
+	<dimen name="SLDS_SIZE_SMALL">240dp</dimen>
+	<dimen name="SLDS_SIZE_MEDIUM">320dp</dimen>
+	<dimen name="SLDS_SIZE_LARGE">400dp</dimen>
+	<dimen name="SLDS_SIZE_X_LARGE">640dp</dimen>
+	<dimen name="SLDS_SIZE_XX_LARGE">960dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_UTILITY_SMALL">16dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_UTILITY_MEDIUM">20dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_UTILITY_LARGE">24dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_LARGE_BOUNDARY">48dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_LARGE_BOUNDARY_ALT">80dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_LARGE_CONTENT">32dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_MEDIUM">38dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_MEDIUM_BOUNDARY">32dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_MEDIUM_BOUNDARY_ALT">36dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_MEDIUM_CONTENT">16dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_MEDIUM_CONTENT_ALT">14dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_SMALL">16dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_SMALL_BOUNDARY">24dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_SMALL_CONTENT">12dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_X_SMALL_BOUNDARY">20dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_X_SMALL_CONTENT">8dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_XX_SMALL_BOUNDARY">16dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_XX_SMALL_CONTENT">14dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_LARGE">50dp</dimen>
+	<dimen name="SLDS_HEIGHT_PILL">26dp</dimen>
+	<dimen name="SLDS_HEIGHT_DOCKED_BAR">40dp</dimen>
+	<dimen name="SLDS_SQUARE_TOGGLE_SLIDER">20dp</dimen>
+	<dimen name="SLDS_WIDTH_TOGGLE">48dp</dimen>
+	<dimen name="SLDS_HEIGHT_TOGGLE">24dp</dimen>
+	<dimen name="SLDS_SQUARE_ICON_GLOBAL_IDENTITY_ICON">20dp</dimen>
+	<dimen name="SLDS_HEIGHT_CONTEXT_BAR">40dp</dimen>
+	<dimen name="SLDS_HEIGHT_SALES_PATH">32dp</dimen>
+	<dimen name="SLDS_PROGRESS_BAR_HEIGHT">2dp</dimen>
+
+<!-- FontSize -->
+	<dimen name="SLDS_FONT_SIZE_X_SMALL">10sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_SMALL">14sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_MEDIUM">16sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_MEDIUM_A">18sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_LARGE">20sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_X_LARGE">24sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_X_LARGE_A">25.12sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_XX_LARGE">32sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_XX_SMALL">10sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_X_SMALL">12sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_SMALL">13sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_MEDIUM">16sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_LARGE">18sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_TEXT_X_LARGE">20sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_XX_SMALL">10sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_X_SMALL">12sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_SMALL">14sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_MEDIUM">18sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_LARGE">24sp</dimen>
+	<dimen name="SLDS_FONT_SIZE_HEADING_X_LARGE">32sp</dimen>
+
+<!-- Radius -->
+	<dimen name="SLDS_BORDER_RADIUS_SMALL">2dp</dimen>
+	<dimen name="SLDS_BORDER_RADIUS_MEDIUM">4dp</dimen>
+	<dimen name="SLDS_BORDER_RADIUS_LARGE">8dp</dimen>
+	<dimen name="SLDS_BORDER_RADIUS_PILL">240dp</dimen>
+	<dimen name="SLDS_BORDER_RADIUS_CIRCLE">0.5dp</dimen>
+
+
+ </resources>
