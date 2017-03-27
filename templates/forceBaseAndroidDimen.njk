@@ -5,7 +5,7 @@
 <resources>
 <!-- Sizes -->
 {% for categoryName, category in data.Size %}<!-- {{categoryName}} -->
-	{% for size in category %}<dimen name="SLDS_{{size.name}}">{{size.value | replace("px", "")}}</dimen>
+	{% for size in category %}<dimen name="slds_{{size.name | lower}}">{{size.value | replace("px", "")}}</dimen>
 	{% endfor %}
 {% endfor %}
  </resources>

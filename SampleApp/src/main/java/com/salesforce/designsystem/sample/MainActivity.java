@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imageView1 = (ImageView) findViewById(R.id.imageView1);
-        imageView1.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityEmoji, 100, this.getApplicationContext().getResources().getColor(R.color.SLDS_COLOR_TEXT_BRAND)));
+        imageView1.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityEmoji, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_brand)));
 
         ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
         imageView2.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilitySocialshare, 100));
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         imageView3.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 100));
 
         ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
-        imageView4.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityDownload, 100, this.getApplicationContext().getResources().getColor(R.color.SLDS_COLOR_TEXT_WARNING)));
+        imageView4.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityDownload, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_warning)));
 
         ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
         imageView5.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityFeed, 100));
