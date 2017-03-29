@@ -112,7 +112,7 @@ gulp.task('minify:svgs', () => {
       gulp.src(__PATHS__.icons +  '/' + t.name + '/*.svg')
         .pipe(svgo())
         .pipe(xmlEdit((xml) => {
-          if (t.name === 'action' || t.name === 'utility') {
+          if (t.name === 'action') {
             xml.svg.$.height = 100;
             xml.svg.$.weight = 100;
             xml.svg.$.viewBox = '0 -24 100 100';
