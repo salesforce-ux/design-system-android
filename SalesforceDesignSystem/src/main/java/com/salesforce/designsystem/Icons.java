@@ -16,7 +16,7 @@ import android.graphics.Typeface;
 public abstract class Icons {
 
     public static Bitmap getBitmap(Context context, ActionIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
     }
 
     public static Bitmap getBitmap(Context context, ActionIcons icon, int size, int color) {
@@ -29,7 +29,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
     }
 
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size, int color) {
@@ -42,7 +42,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
     }
 
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size, int color) {
@@ -55,7 +55,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
     }
 
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size, int color) {
@@ -78,7 +78,6 @@ public abstract class Icons {
         float y = (size / 2.0f) - ((textPaint.descent() + textPaint.ascent()) / 2.0f);
         canvas.drawText(iconChar, (size / 2.0f), y, textPaint);
     }
-
 
     public enum ActionIcons {
         ActionAddContact ("\uEA01"),
