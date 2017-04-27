@@ -16,7 +16,7 @@ import android.graphics.Typeface;
 public abstract class Icons {
 
     public static Bitmap getBitmap(Context context, ActionIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
     }
 
     public static Bitmap getBitmap(Context context, ActionIcons icon, int size, int color) {
@@ -29,7 +29,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
     }
 
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size, int color) {
@@ -42,7 +42,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
     }
 
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size, int color) {
@@ -55,7 +55,7 @@ public abstract class Icons {
     }
 
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+        return getBitmap(context, icon, size, context.getResources().getColor(R.color.SLDS_COLOR_TEXT_ICON_DEFAULT));
     }
 
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size, int color) {
