@@ -14,46 +14,93 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:text="Action Icons:"
+        android:id="@+id/headerAction" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/headerAction"
         android:layout_alignParentStart="true"
-        android:id="@+id/imageView1" />
+        android:id="@+id/imageAction1" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/textView"
-        android:layout_toEndOf="@+id/imageView1" />
+        android:id="@+id/imageAction2"
+        android:layout_alignTop="@+id/imageAction1"
+        android:layout_toEndOf="@+id/imageAction1" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_toEndOf="@+id/imageView2"
-        android:id="@+id/imageView3" />
+        android:layout_alignTop="@+id/imageAction2"
+        android:layout_toEndOf="@+id/imageAction2"
+        android:id="@+id/imageAction3" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_toEndOf="@+id/imageView3"
-        android:id="@+id/imageView4" />
+        android:layout_alignTop="@+id/imageAction3"
+        android:layout_toEndOf="@+id/imageAction3"
+        android:id="@+id/imageAction4" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_toEndOf="@+id/imageView4"
-        android:id="@+id/imageView5" />
+        android:layout_alignTop="@+id/imageAction4"
+        android:layout_toEndOf="@+id/imageAction4"
+        android:id="@+id/imageAction5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utility Icons:"
+        android:layout_below="@+id/imageAction1"
+        android:id="@+id/headerUtility" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/headerUtility"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageUtility1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageUtility2"
+        android:layout_alignTop="@+id/imageUtility1"
+        android:layout_toEndOf="@+id/imageUtility1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/imageUtility2"
+        android:layout_toEndOf="@+id/imageUtility2"
+        android:id="@+id/imageUtility3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/imageUtility3"
+        android:layout_toEndOf="@+id/imageUtility3"
+        android:id="@+id/imageUtility4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/imageUtility4"
+        android:layout_toEndOf="@+id/imageUtility4"
+        android:id="@+id/imageUtility5" />
 </RelativeLayout>
