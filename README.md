@@ -17,7 +17,7 @@ See [Demo App](https://github.com/salesforce-ux/design-system-android/tree/maste
 #### Colors
 
 ```
-Example
+android:background="@color/slds_color_brand_dark"
 
 ```
 
@@ -25,7 +25,7 @@ Example
 #### Fonts and text sizes
 
 ```
-Example
+app:custom_font="SalesforceSans-Regular.ttf"
 
 ```
 
@@ -35,7 +35,9 @@ Example
 ##### Action Icons
 
 ```
-Example
+ImageView icon = (ImageView) findViewById(R.id.taskIcon);
+icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
+Icons.ActionIcons.ActionNewTask, 150, Color.WHITE));
 
 ```
 
@@ -43,7 +45,9 @@ Example
 ##### Custom Icons
 
 ```
-Example
+ImageView icon = (ImageView) findViewById(R.id.custom1);
+icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
+Icons.CustomIcons.Custom1, 150, Color.WHITE));
 
 ```
 
@@ -51,7 +55,9 @@ Example
 ##### Standard Icons
 
 ```
-Example
+ImageView icon = (ImageView) findViewById(R.id.account);
+icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
+Icons.StandardIcons.Account, 150, Color.WHITE));
 
 ```
 
@@ -60,7 +66,9 @@ Example
 
 
 ```
-Example
+ImageView icon = (ImageView) findViewById(R.id.addContact);
+icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
+Icons.Utility.AddContact, 150, Color.WHITE));
 
 ```
 
