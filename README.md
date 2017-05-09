@@ -35,29 +35,30 @@ app:custom_font="SalesforceSans-Regular.ttf"
 ##### Action Icons
 
 ```
-ImageView icon = (ImageView) findViewById(R.id.taskIcon);
-icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
-Icons.ActionIcons.ActionNewTask, 150, Color.WHITE));
-
+Icons.getDrawable(context,
+                  Icons.ActionIcons.ActionNewTask,
+                  resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
+                  resources.getColor(R.color.slds_color_text_link));        
 ```
 
 
 ##### Custom Icons
 
 ```
-ImageView icon = (ImageView) findViewById(R.id.custom1);
-icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
-Icons.CustomIcons.Custom1, 150, Color.WHITE));
-
+Icons.getDrawable(context,
+                  Icons.CustomIcons.Custom1,
+                  resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
+                  resources.getColor(R.color.slds_color_text_link));  
 ```
 
 
 ##### Standard Icons
 
 ```
-ImageView icon = (ImageView) findViewById(R.id.account);
-icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
-Icons.StandardIcons.Account, 150, Color.WHITE));
+Icons.getDrawable(context,
+                  Icons.StandardIcons.Account,
+                  resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
+                  resources.getColor(R.color.slds_color_text_link));
 
 ```
 
@@ -66,9 +67,11 @@ Icons.StandardIcons.Account, 150, Color.WHITE));
 
 
 ```
-ImageView icon = (ImageView) findViewById(R.id.addContact);
-icon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(),
-Icons.Utility.AddContact, 150, Color.WHITE));
+Icons.getDrawable(context,
+                  Icons.Utility.AddContact,
+                  resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
+                  resources.getColor(R.color.slds_color_text_link));
+
 
 ```
 
