@@ -3,7 +3,7 @@
 
 package com.salesforce.designsystem;
 
-import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -17,98 +17,97 @@ import android.graphics.drawable.Drawable;
 
 public abstract class Icons {
 
-    public static Bitmap getBitmap(Context context, ActionIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    public static Bitmap getBitmap(Resources res, ActionIcons icon, int size) {
+        return getBitmap(res, icon, size, res.getColor(R.color.slds_color_text_icon_default));
     }
 
-    public static Drawable getDrawable(Context context, ActionIcons icon, int size) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
+    public static Drawable getDrawable(Resources res, ActionIcons icon, int size) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size));
     }
 
-    public static Bitmap getBitmap(Context context, ActionIcons icon, int size, int color) {
+    public static Bitmap getBitmap(Resources res, ActionIcons icon, int size, int color) {
         Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
 
-        drawIconGlyph(context, icon.value, size, canvas, color);
+        drawIconGlyph(res, icon.value, size, canvas, color);
 
         return bmp;
     }
 
-    public static Drawable getDrawable(Context context, ActionIcons icon, int size, int color) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    public static Drawable getDrawable(Resources res, ActionIcons icon, int size, int color) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size, color));
     }
 
-    public static Bitmap getBitmap(Context context, CustomIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    public static Bitmap getBitmap(Resources res, CustomIcons icon, int size) {
+        return getBitmap(res, icon, size, res.getColor(R.color.slds_color_text_icon_default));
     }
 
-    public static Drawable getDrawable(Context context, CustomIcons icon, int size) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
+    public static Drawable getDrawable(Resources res, CustomIcons icon, int size) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size));
     }
 
-    public static Bitmap getBitmap(Context context, CustomIcons icon, int size, int color) {
+    public static Bitmap getBitmap(Resources res, CustomIcons icon, int size, int color) {
         Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
 
-        drawIconGlyph(context, icon.value, size, canvas, color);
+        drawIconGlyph(res, icon.value, size, canvas, color);
 
         return bmp;
     }
 
-    public static Drawable getDrawable(Context context, CustomIcons icon, int size, int color) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    public static Drawable getDrawable(Resources res, CustomIcons icon, int size, int color) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size, color));
     }
 
-    public static Bitmap getBitmap(Context context, StandardIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    public static Bitmap getBitmap(Resources res, StandardIcons icon, int size) {
+        return getBitmap(res, icon, size, res.getColor(R.color.slds_color_text_icon_default));
     }
 
-    public static Drawable getDrawable(Context context, StandardIcons icon, int size) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
+    public static Drawable getDrawable(Resources res, StandardIcons icon, int size) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size));
     }
 
-    public static Bitmap getBitmap(Context context, StandardIcons icon, int size, int color) {
+    public static Bitmap getBitmap(Resources res, StandardIcons icon, int size, int color) {
         Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
 
-        drawIconGlyph(context, icon.value, size, canvas, color);
+        drawIconGlyph(res, icon.value, size, canvas, color);
 
         return bmp;
     }
 
-    public static Drawable getDrawable(Context context, StandardIcons icon, int size, int color) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    public static Drawable getDrawable(Resources res, StandardIcons icon, int size, int color) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size, color));
     }
 
-    public static Bitmap getBitmap(Context context, UtilityIcons icon, int size) {
-        return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    public static Bitmap getBitmap(Resources res, UtilityIcons icon, int size) {
+        return getBitmap(res, icon, size, res.getColor(R.color.slds_color_text_icon_default));
     }
 
-    public static Drawable getDrawable(Context context, UtilityIcons icon, int size) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
+    public static Drawable getDrawable(Resources res, UtilityIcons icon, int size) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size));
     }
 
-    public static Bitmap getBitmap(Context context, UtilityIcons icon, int size, int color) {
+    public static Bitmap getBitmap(Resources res, UtilityIcons icon, int size, int color) {
         Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
 
-        drawIconGlyph(context, icon.value, size, canvas, color);
+        drawIconGlyph(res, icon.value, size, canvas, color);
 
         return bmp;
     }
 
-    public static Drawable getDrawable(Context context, UtilityIcons icon, int size, int color) {
-        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    public static Drawable getDrawable(Resources res, UtilityIcons icon, int size, int color) {
+        return new BitmapDrawable(res, getBitmap(res, icon, size, color));
     }
 
-    private static void drawIconGlyph(Context context, String iconChar, int size, Canvas canvas, int color) {
+    private static void drawIconGlyph(Resources res, String iconChar, int size, Canvas canvas, int color) {
         Paint textPaint = new Paint();
         textPaint.setFlags(Paint.ANTI_ALIAS_FLAG);
         textPaint.setTextAlign(Paint.Align.CENTER);
         textPaint.setColor(color);
         textPaint.setTextSize(size);
-        textPaint.setTypeface(Typeface.createFromAsset(
-                context.getResources().getAssets(), "SalesforceDesignSystemIcons.ttf"));
+        textPaint.setTypeface(Typeface.createFromAsset(res.getAssets(), "SalesforceDesignSystemIcons.ttf"));
         float y = (size / 2.0f) - ((textPaint.descent() + textPaint.ascent()) / 2.0f);
         canvas.drawText(iconChar, (size / 2.0f), y, textPaint);
     }

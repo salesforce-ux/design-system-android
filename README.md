@@ -35,7 +35,7 @@ app:custom_font="SalesforceSans-Regular.ttf"
 ##### Action Icons
 
 ```
-Icons.getDrawable(context,
+Icons.getDrawable(resources,
                   Icons.ActionIcons.ActionNewTask,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));        
@@ -45,7 +45,7 @@ Icons.getDrawable(context,
 ##### Custom Icons
 
 ```
-Icons.getDrawable(context,
+Icons.getDrawable(resources,
                   Icons.CustomIcons.Custom1,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));  
@@ -55,7 +55,7 @@ Icons.getDrawable(context,
 ##### Standard Icons
 
 ```
-Icons.getDrawable(context,
+Icons.getDrawable(resources,
                   Icons.StandardIcons.Account,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));
@@ -67,7 +67,7 @@ Icons.getDrawable(context,
 
 
 ```
-Icons.getDrawable(context,
+Icons.getDrawable(resources,
                   Icons.Utility.AddContact,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));
