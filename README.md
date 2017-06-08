@@ -6,6 +6,36 @@ Current release: Spring ’17
 
 ## Simple Install
 
+The library is offered as a Bintray repository that can be pulled into any project easily via the Gradle build. See the Bintray [here](https://bintray.com/salesforce-ux/salesforce-ux/SalesforceDesignSystem#).
+
+### Pull in the Library
+
+Add the following to **build.gradle (Module)** in the Gradle Scripts:
+
+```
+repositories {
+    jcenter()
+}
+```
+
+Under depenecies in the same script add:
+
+```
+compile 'com.salesforce.ux:SalesforceDesignSystem:3.0.0'
+```
+
+*Replace 3.0.0 with the latest design-system-android build version.*
+
+Sync the Gradle Scripts, and perform a Gradle build.
+**The Design System is now ready for use in your project.**
+
+### Import Icons
+
+Add the following import statment to any file which requires the use of Design System icons:
+
+```
+import com.salesforce.designsystem.Icons;
+```
 
 ## Sample Application 
 
