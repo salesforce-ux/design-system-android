@@ -55,7 +55,10 @@ android:background="@color/slds_color_brand_dark"
 #### Fonts and text sizes
 
 ```
-app:custom_font="SalesforceSans-Regular.ttf"
+TextView textView = (TextView)findViewById(R.id.textView);
+
+Typeface custom_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-bold.ttf");
+textView.setTypeface(custom_font);
 
 ```
 
