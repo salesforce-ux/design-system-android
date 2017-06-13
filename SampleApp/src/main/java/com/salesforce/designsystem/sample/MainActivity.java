@@ -12,19 +12,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView imageView1 = (ImageView) findViewById(R.id.imageView1);
-        imageView1.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityEmoji, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_brand)));
 
-        ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilitySocialshare, 100));
+        ImageView imageView;
 
-        ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
-        imageView3.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 100));
+        // Action icons
+        imageView = (ImageView) findViewById(R.id.imageAction1);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionAddContact, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_brand)));
 
-        ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
-        imageView4.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityDownload, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_warning)));
+        imageView = (ImageView) findViewById(R.id.imageAction2);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionJoinGroup, 100));
 
-        ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
-        imageView5.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityFeed, 100));
+        imageView = (ImageView) findViewById(R.id.imageAction3);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionNewAccount, 100));
+
+        imageView = (ImageView) findViewById(R.id.imageAction4);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionDelete, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_error)));
+
+        imageView = (ImageView) findViewById(R.id.imageAction5);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionNewTask, 100));
+
+
+        // Utility icons
+        imageView = (ImageView) findViewById(R.id.imageUtility1);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityEmoji, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_brand)));
+
+        imageView = (ImageView) findViewById(R.id.imageUtility2);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilitySocialshare, 100));
+
+        imageView = (ImageView) findViewById(R.id.imageUtility3);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 100));
+
+        imageView = (ImageView) findViewById(R.id.imageUtility4);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityDownload, 100, this.getApplicationContext().getResources().getColor(R.color.slds_color_text_warning)));
+
+        imageView = (ImageView) findViewById(R.id.imageUtility5);
+        imageView.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityFeed, 100));
     }
 }

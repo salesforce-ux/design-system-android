@@ -8,6 +8,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Typeface;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 
 /**
  * Utility for generating Bitmaps from SLDS icons.
@@ -19,6 +21,10 @@ public abstract class Icons {
         return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
     }
 
+    public static Drawable getDrawable(Context context, ActionIcons icon, int size) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
+    }
+
     public static Bitmap getBitmap(Context context, ActionIcons icon, int size, int color) {
         Bitmap bmp = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
@@ -28,8 +34,16 @@ public abstract class Icons {
         return bmp;
     }
 
+    public static Drawable getDrawable(Context context, ActionIcons icon, int size, int color) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    }
+
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size) {
         return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    }
+
+    public static Drawable getDrawable(Context context, CustomIcons icon, int size) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
     }
 
     public static Bitmap getBitmap(Context context, CustomIcons icon, int size, int color) {
@@ -41,8 +55,16 @@ public abstract class Icons {
         return bmp;
     }
 
+    public static Drawable getDrawable(Context context, CustomIcons icon, int size, int color) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    }
+
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size) {
         return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    }
+
+    public static Drawable getDrawable(Context context, StandardIcons icon, int size) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
     }
 
     public static Bitmap getBitmap(Context context, StandardIcons icon, int size, int color) {
@@ -54,8 +76,16 @@ public abstract class Icons {
         return bmp;
     }
 
+    public static Drawable getDrawable(Context context, StandardIcons icon, int size, int color) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
+    }
+
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size) {
         return getBitmap(context, icon, size, context.getResources().getColor(R.color.slds_color_text_icon_default));
+    }
+
+    public static Drawable getDrawable(Context context, UtilityIcons icon, int size) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size));
     }
 
     public static Bitmap getBitmap(Context context, UtilityIcons icon, int size, int color) {
@@ -65,6 +95,10 @@ public abstract class Icons {
         drawIconGlyph(context, icon.value, size, canvas, color);
 
         return bmp;
+    }
+
+    public static Drawable getDrawable(Context context, UtilityIcons icon, int size, int color) {
+        return new BitmapDrawable(context.getResources(), getBitmap(context, icon, size, color));
     }
 
     private static void drawIconGlyph(Context context, String iconChar, int size, Canvas canvas, int color) {

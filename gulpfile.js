@@ -28,6 +28,7 @@ const __PATHS__ = {
   iconTokens: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'design-tokens', 'dist'),
   icons: path.join(__dirname, 'node_modules', '@salesforce-ux', 'design-system', 'assets', 'icons'),
   outputAssets: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'assets'),
+  outputIcons: path.join(__dirname, 'SalesforceDesignSystem', 'icons'),
   outputRes: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'res', 'values'),
   outputSrc: path.join(__dirname, 'SalesforceDesignSystem', 'src', 'main', 'java', 'com', 'salesforce', 'designsystem'),
   temp: path.join(__dirname, 'temp')
@@ -127,6 +128,7 @@ gulp.task('minify:svgs', () => {
           return xml;
         }))
         .pipe(gulp.dest(__PATHS__.temp + '/minified/' + t.name))
+        .pipe(gulp.dest(__PATHS__.outputIcons + '/' + t.name))
       )
   })
 
