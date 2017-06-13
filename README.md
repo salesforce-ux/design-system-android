@@ -48,7 +48,6 @@ See [Demo App](https://github.com/salesforce-ux/design-system-android/tree/maste
 
 ```
 android:background="@color/slds_color_brand_dark"
-
 ```
 
 
@@ -59,7 +58,6 @@ TextView textView = (TextView)findViewById(R.id.textView);
 
 Typeface custom_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-bold.ttf");
 textView.setTypeface(custom_font);
-
 ```
 
 
@@ -92,7 +90,6 @@ Icons.getDrawable(context,
                   Icons.StandardIcons.Account,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));
-
 ```
 
 
@@ -104,8 +101,6 @@ Icons.getDrawable(context,
                   Icons.Utility.AddContact,
                   resources.getDimensionPixelSize(R.dimen.slds_square_icon_medium),
                   resources.getColor(R.color.slds_color_text_link));
-
-
 ```
 
 ## Library Build (not required)
