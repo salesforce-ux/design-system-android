@@ -1,1 +1,1 @@
-include ':SampleApp', ':SalesforceDesignSystem'
+include ':SalesforceDesignSystem'
