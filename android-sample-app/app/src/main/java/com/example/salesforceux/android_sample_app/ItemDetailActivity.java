@@ -1,6 +1,7 @@
 package com.example.salesforceux.android_sample_app;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -12,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.salesforceux.android_sample_app.dummy.DummyContent;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,17 +85,25 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         setContentView(R.layout.lightning_activity_item_detail);
 
-        TypeFaceTextView headerTitle = (TypeFaceTextView) this.findViewById(R.id.headerTitle);
+        Typeface light_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Light.ttf");
+        Typeface regular_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Regular.ttf");
+
+        TextView headerTitle = (TextView) this.findViewById(R.id.headerTitle);
         headerTitle.setText(mItem.name);
 
-        TypeFaceTextView headerType = (TypeFaceTextView) this.findViewById(R.id.headerType);
+        TextView headerType = (TextView) this.findViewById(R.id.headerType);
         headerType.setText(mItem.type);
 
-        TypeFaceTextView headerPhone = (TypeFaceTextView) this.findViewById(R.id.headerPhone);
+        TextView headerPhone = (TextView) this.findViewById(R.id.headerPhone);
         headerPhone.setText(mItem.phone);
 
-        TypeFaceTextView headerWebsite = (TypeFaceTextView) this.findViewById(R.id.headerWebsite);
+        TextView headerWebsite = (TextView) this.findViewById(R.id.headerWebsite);
         headerWebsite.setText(mItem.website);
+
+//        headerTitle.setTypeface(light_font);
+//        headerType.setTypeface(regular_font);
+//        headerPhone.setTypeface(regular_font);
+//        headerWebsite.setTypeface(regular_font);
 
         String[] owner = {"Account Owner", mItem.owner};
         DETAILS.add(owner);
@@ -115,7 +126,9 @@ public class ItemDetailActivity extends AppCompatActivity {
         String[] phone = {"Phone", mItem.phone};
         DETAILS.add(phone);
 
-        ImageView accountIcon = (ImageView) findViewById(R.id.accountsIcon);
+        // SET ICONS FOR ACTION BAR
+
+        /* ImageView accountIcon = (ImageView) findViewById(R.id.accountsIcon);
         accountIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.StandardIcons.StandardAccount, 150, Color.WHITE));
 
         ImageView callIcon = (ImageView) findViewById(R.id.callIcon);
@@ -131,7 +144,7 @@ public class ItemDetailActivity extends AppCompatActivity {
         postIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionSharePost, 150, Color.WHITE));
 
         ImageView moreIcon = (ImageView) findViewById(R.id.moreIcon);
-        moreIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionMore, 150, Color.WHITE));
+        moreIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionMore, 150, Color.WHITE)); */
 
         View recyclerView = findViewById(R.id.detail_list);
         assert recyclerView != null;
