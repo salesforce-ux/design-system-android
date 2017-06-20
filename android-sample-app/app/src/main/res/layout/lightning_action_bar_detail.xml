@@ -10,9 +10,9 @@
 
         <View style="@style/Border.Top" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/callIcon"-->
-            <!--style="@style/ActionButtonIcon.Call"/>-->
+        <ImageView
+            android:id="@+id/callIcon"
+            style="@style/ActionButtonIcon.Call"/>
 
         <com.example.salesforceux.android_sample_app.TypeFaceTextView
             style="@style/ActionButtonLabel"
@@ -25,9 +25,9 @@
 
         <View style="@style/Border.Top" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/taskIcon"-->
-            <!--style="@style/ActionButtonIcon.Task"/>-->
+        <ImageView
+            android:id="@+id/taskIcon"
+            style="@style/ActionButtonIcon.Task"/>
 
         <com.example.salesforceux.android_sample_app.TypeFaceTextView
             style="@style/ActionButtonLabel"
@@ -40,9 +40,9 @@
 
         <View style="@style/Border.Top" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/eventIcon"-->
-            <!--style="@style/ActionButtonIcon.Event" />-->
+        <ImageView
+            android:id="@+id/eventIcon"
+            style="@style/ActionButtonIcon.Event" />
 
         <com.example.salesforceux.android_sample_app.TypeFaceTextView
             style="@style/ActionButtonLabel"
@@ -55,9 +55,9 @@
 
         <View style="@style/Border.Top" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/postIcon"-->
-            <!--style="@style/ActionButtonIcon.Post" />-->
+        <ImageView
+            android:id="@+id/postIcon"
+            style="@style/ActionButtonIcon.Post" />
 
         <com.example.salesforceux.android_sample_app.TypeFaceTextView
             style="@style/ActionButtonLabel"
@@ -70,9 +70,9 @@
 
         <View style="@style/Border.Top" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/moreIcon"-->
-            <!--style="@style/ActionButtonIcon.More" />-->
+        <ImageView
+            android:id="@+id/moreIcon"
+            style="@style/ActionButtonIcon.More" />
 
         <com.example.salesforceux.android_sample_app.TypeFaceTextView
             style="@style/ActionButtonLabel"

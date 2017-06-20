@@ -85,8 +85,11 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         setContentView(R.layout.lightning_activity_item_detail);
 
-        Typeface light_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Light.ttf");
-        Typeface regular_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Regular.ttf");
+        Typeface light_font = Typeface.SERIF;
+        Typeface regular_font = Typeface.MONOSPACE;
+
+        light_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Light.ttf");
+        regular_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Regular.ttf");
 
         TextView headerTitle = (TextView) this.findViewById(R.id.headerTitle);
         headerTitle.setText(mItem.name);
@@ -100,10 +103,10 @@ public class ItemDetailActivity extends AppCompatActivity {
         TextView headerWebsite = (TextView) this.findViewById(R.id.headerWebsite);
         headerWebsite.setText(mItem.website);
 
-//        headerTitle.setTypeface(light_font);
-//        headerType.setTypeface(regular_font);
-//        headerPhone.setTypeface(regular_font);
-//        headerWebsite.setTypeface(regular_font);
+        headerTitle.setTypeface(light_font);
+        headerType.setTypeface(regular_font);
+        headerPhone.setTypeface(regular_font);
+        headerWebsite.setTypeface(regular_font);
 
         String[] owner = {"Account Owner", mItem.owner};
         DETAILS.add(owner);
@@ -128,7 +131,7 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         // SET ICONS FOR ACTION BAR
 
-        /* ImageView accountIcon = (ImageView) findViewById(R.id.accountsIcon);
+        ImageView accountIcon = (ImageView) findViewById(R.id.accountsIcon);
         accountIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.StandardIcons.StandardAccount, 150, Color.WHITE));
 
         ImageView callIcon = (ImageView) findViewById(R.id.callIcon);
@@ -144,7 +147,7 @@ public class ItemDetailActivity extends AppCompatActivity {
         postIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionSharePost, 150, Color.WHITE));
 
         ImageView moreIcon = (ImageView) findViewById(R.id.moreIcon);
-        moreIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionMore, 150, Color.WHITE)); */
+        moreIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionMore, 150, Color.WHITE));
 
         View recyclerView = findViewById(R.id.detail_list);
         assert recyclerView != null;

@@ -3,6 +3,7 @@ package com.example.salesforceux.android_sample_app;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 import com.example.salesforceux.android_sample_app.dummy.*;
@@ -26,37 +28,9 @@ import java.util.List;
  * item details. On tablets, the activity presents the list of items and
  * item details side-by-side using two vertical panes.
  */
-public class ItemListActivity extends AppCompatActivity implements View.OnClickListener {
+public class ItemListActivity extends AppCompatActivity {
 
     Boolean serviceCloudContext = false;
-
-    public void onClick(View v) {
-
-
-        setContentView(R.layout.lightning_activity_item_list);
-
-        View header = findViewById(R.id.header_master);
-        header.setOnClickListener(this);
-
-        View recyclerView = findViewById(R.id.item_list);
-        assert recyclerView != null;
-        setupRecyclerView((RecyclerView) recyclerView);
-
-        ImageView accountsIcon = (ImageView) findViewById(R.id.accountsIcon);
-        accountsIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.StandardIcons.StandardAccount, 150, Color.WHITE));
-
-        ImageView chevronDown = (ImageView) findViewById(R.id.chevronDown);
-        chevronDown.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 60));
-
-        ImageView filterIcon = (ImageView) findViewById(R.id.filterIcon);
-        filterIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionFilter, 150, Color.WHITE));
-
-        ImageView sortIcon = (ImageView) findViewById(R.id.sortIcon);
-        sortIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionSort, 150, Color.WHITE));
-
-        ImageView newIcon = (ImageView) findViewById(R.id.newIcon);
-        newIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionNew, 150, Color.WHITE));
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,22 +46,32 @@ public class ItemListActivity extends AppCompatActivity implements View.OnClickL
 
         View header = findViewById(R.id.header_master);
 
-        ImageView accountsIcon = (ImageView) findViewById(R.id.accountsIcon);
-        accountsIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.StandardIcons.StandardAccount, 150, Color.WHITE));
+//        ImageView accountsIcon = (ImageView) findViewById(R.id.accountsIcon);
+//        accountsIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.StandardIcons.StandardAccount, 150, Color.WHITE));
+//
+//        ImageView chevronDown = (ImageView) findViewById(R.id.chevronDown);
+//        chevronDown.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 60));
+//
+//        ImageView filterIcon = (ImageView) findViewById(R.id.filterIcon);
+//        filterIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionFilter, 150, Color.WHITE));
+//
+//        ImageView sortIcon = (ImageView) findViewById(R.id.sortIcon);
+//        sortIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionSort, 150, Color.WHITE));
+//
+//        ImageView newIcon = (ImageView) findViewById(R.id.newIcon);
+//        newIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionNew, 150, Color.WHITE));
 
-        ImageView chevronDown = (ImageView) findViewById(R.id.chevronDown);
-        chevronDown.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.UtilityIcons.UtilityChevrondown, 60));
+        Typeface light_font = Typeface.SERIF;
+        Typeface regular_font = Typeface.MONOSPACE;
 
-        ImageView filterIcon = (ImageView) findViewById(R.id.filterIcon);
-        filterIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionFilter, 150, Color.WHITE));
+//        light_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Light.ttf");
+//        regular_font = Typeface.createFromAsset(getAssets(),  "SalesforceSans-Regular.ttf");
 
-        ImageView sortIcon = (ImageView) findViewById(R.id.sortIcon);
-        sortIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionSort, 150, Color.WHITE));
+        TextView headerTitle = (TextView) this.findViewById(R.id.headerTitle);
+        TextView headerDescription = (TextView) this.findViewById(R.id.headerDescription);
 
-        ImageView newIcon = (ImageView) findViewById(R.id.newIcon);
-        newIcon.setImageBitmap(Icons.getBitmap(this.getApplicationContext(), Icons.ActionIcons.ActionNew, 150, Color.WHITE));
-
-        header.setOnClickListener(this);
+        headerTitle.setTypeface(light_font);
+        headerDescription.setTypeface(regular_font);
     }
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {

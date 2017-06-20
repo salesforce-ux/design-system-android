@@ -10,9 +10,8 @@
         style="@style/HeaderLogo"
         android:id="@+id/accountsIcon" />
 
-    <com.example.salesforceux.android_sample_app.TypeFaceTextView
+    <TextView
         android:layout_toRightOf="@id/accountsIcon"
-        app:customFont="SalesforceSans-Light.ttf"
         android:text="My Accounts"
         android:id="@+id/headerTitle"
         style="@style/HeaderTitle.Master"/>
@@ -22,10 +21,9 @@
         android:id="@+id/chevronDown"
         style="@style/HeaderChevron"/>
 
-    <com.example.salesforceux.android_sample_app.TypeFaceTextView
+    <TextView
         android:layout_below="@id/headerTitle"
         android:layout_toRightOf="@id/accountsIcon"
-        app:customFont="SalesforceSans-Regular.ttf"
         android:text="5 items, sorted by Account Name"
         android:id="@+id/headerDescription"
         style="@style/HeaderSubtext.Regular"/>

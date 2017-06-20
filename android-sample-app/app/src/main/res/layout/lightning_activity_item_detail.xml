@@ -34,7 +34,7 @@
         android:layout_height="@dimen/action_bar_height"
         android:layout_gravity="bottom" >
 
-        <include layout="@layout/lighting_action_bar_detail" />
+        <include layout="@layout/lightning_action_bar_detail" />
 
     </RelativeLayout>
 

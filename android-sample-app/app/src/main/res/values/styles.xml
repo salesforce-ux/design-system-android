@@ -116,7 +116,7 @@
     <!-- Header -->
 
     <style name="Header">
-        <item name="android:background">@color/slds_color_background</item>
+        <!--<item name="android:background">@color/slds_color_background</item>-->
     </style>
 
     <style name="HeaderLogo">
@@ -136,13 +136,13 @@
     <style name="HeaderTitle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/slds_color_text_default</item>
-        <item name="android:textSize">@dimen/slds_font_size_large</item>
+        <!--<item name="android:textColor">@color/slds_color_text_default</item>-->
+        <!--<item name="android:textSize">@dimen/slds_font_size_large</item>-->
     </style>
 
     <style name="HeaderTitle.Master">
-        <item name="android:layout_marginTop">@dimen/slds_spacing_medium</item>
-        <item name="android:layout_marginBottom">@dimen/slds_spacing_xxx_small</item>
+        <!--<item name="android:layout_marginTop">@dimen/slds_spacing_medium</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/slds_spacing_xxx_small</item>-->
     </style>
 
     <style name="HeaderTitle.Detail">
@@ -176,15 +176,15 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <!--<item name="android:textSize">@dimen/slds_font_size_heading_small</item>-->
-        <!--<item name="android:textColor">@color/slds_color_text_default</item>-->
+        <item name="android:textSize">@dimen/slds_font_size_heading_small</item>
+        <item name="android:textColor">@color/slds_color_text_default</item>
     </style>
 
     <style name="TabBarUnderline">
         <item name="android:layout_height">2dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <!--<item name="android:background">@color/slds_color_brand_dark</item>-->
+        <item name="android:background">@color/slds_color_brand_dark</item>
     </style>
 
     <!-- Borders -->
