@@ -39,7 +39,7 @@ import com.salesforce.designsystem.Icons;
 
 ## Sample Application 
 
-See [Demo App](https://github.com/salesforce-ux/design-system-android/tree/master/????)
+See [Demo App](https://github.com/salesforce-ux/design-system-android/tree/master/android-sample-app)
 
 ### Examples
 
