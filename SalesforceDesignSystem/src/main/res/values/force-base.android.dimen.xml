@@ -23,7 +23,7 @@
 	<dimen name="slds_template_gutters">0dp</dimen>
 	<dimen name="slds_template_profile_gutters">0dp</dimen>
 	<dimen name="slds_card_spacing_margin">16dp</dimen>
-	<dimen name="slds_card_header_padding">0.75rem 1rem 0dp</dimen>
+	<dimen name="slds_card_header_padding">0dp</dimen>
 	<dimen name="slds_card_header_margin">0dp</dimen>
 	<dimen name="slds_card_body_padding">0dp</dimen>
 	<dimen name="slds_card_footer_margin">12dp</dimen>
