@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 <!-- ## [Unreleased] -->
 
+## 3.1.0 - 10/3/2017
+Library updated with Winter '18 tokens.
+
 ## 3.0.0 - 3/13/2017
 With the introduction of the 3.0.0 release of the SLDS iOS library, developers can now access SLDS icons.
 

@@ -8,90 +8,114 @@
 	<color name="slds_fill_brand" category="Fill">#FF0070D2</color>
 	<color name="slds_fill_brand_hover" category="Fill">#FF005FB2</color>
 	<color name="slds_fill_brand_active" category="Fill">#FF16325C</color>
-	<color name="slds_fill_header_button" category="Fill">#FF9FAAB5</color>
+	<color name="slds_fill_header_button" category="Fill">#FFB0ADAB</color>
 	<color name="slds_fill_header_button_hover" category="Fill">#FF005FB2</color>
 	
 <!-- BorderColor -->
-	<color name="slds_color_border" category="BorderColor">#FFD8DDE6</color>
+	<color name="slds_color_border_primary" category="BorderColor">#FFD9DBDD</color>
+	<color name="slds_color_border_brand_primary" category="BorderColor">#FF1589EE</color>
+	<color name="slds_color_border_brand_primary_hover" category="BorderColor">#FF0070D2</color>
+	<color name="slds_color_border_brand_primary_focus" category="BorderColor">#FF0070D2</color>
+	<color name="slds_color_border_brand_primary_active" category="BorderColor">#FF00396B</color>
+	<color name="slds_color_border" category="BorderColor">#FFD9DBDD</color>
 	<color name="slds_color_border_brand" category="BorderColor">#FF1589EE</color>
 	<color name="slds_color_border_brand_dark" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_border_customer" category="BorderColor">#FFFF9A3C</color>
 	<color name="slds_color_border_destructive" category="BorderColor">#FFC23934</color>
 	<color name="slds_color_border_destructive_hover" category="BorderColor">#FFA61A14</color>
 	<color name="slds_color_border_destructive_active" category="BorderColor">#FF870500</color>
-	<color name="slds_color_border_info" category="BorderColor">#FF54698D</color>
+	<color name="slds_color_border_info" category="BorderColor">#FF6B6D70</color>
 	<color name="slds_color_border_error" category="BorderColor">#FFC23934</color>
 	<color name="slds_color_border_error_alt" category="BorderColor">#FFEA8288</color>
 	<color name="slds_color_border_error_dark" category="BorderColor">#FFEA8288</color>
-	<color name="slds_color_border_offline" category="BorderColor">#FF444444</color>
+	<color name="slds_color_border_offline" category="BorderColor">#FF3E4041</color>
 	<color name="slds_color_border_success" category="BorderColor">#FF4BCA81</color>
 	<color name="slds_color_border_success_dark" category="BorderColor">#FF04844B</color>
 	<color name="slds_color_border_warning" category="BorderColor">#FFFFB75D</color>
 	<color name="slds_color_border_inverse" category="BorderColor">#FF061C3F</color>
 	<color name="slds_color_border_tab_selected" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_border_tab_active" category="BorderColor">#FFFFFFFF</color>
-	<color name="slds_color_border_separator" category="BorderColor">#FFF4F6F9</color>
-	<color name="slds_color_border_separator_alt" category="BorderColor">#FFD8DDE6</color>
-	<color name="slds_color_border_separator_alt_2" category="BorderColor">#FFA8B7C7</color>
+	<color name="slds_color_border_separator" category="BorderColor">#FFF9F9FA</color>
+	<color name="slds_color_border_separator_alt" category="BorderColor">#FFD9DBDD</color>
+	<color name="slds_color_border_separator_alt_2" category="BorderColor">#FFC4C6CA</color>
 	<color name="slds_color_border_separator_inverse" category="BorderColor">#FF2A426C</color>
 	<color name="slds_color_border_row_selected" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_border_row_selected_hover" category="BorderColor">#FF1589EE</color>
 	<color name="slds_color_border_hint" category="BorderColor">#FF2A426C</color>
 	<color name="slds_color_border_selection" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_border_selection_hover" category="BorderColor">#FF1589EE</color>
-	<color name="slds_color_border_selection_active" category="BorderColor">#FFF4F6F9</color>
+	<color name="slds_color_border_selection_active" category="BorderColor">#FFF9F9FA</color>
 	<color name="slds_color_border_canvas_element_selection" category="BorderColor">#FF5EB4FF</color>
 	<color name="slds_color_border_canvas_element_selection_hover" category="BorderColor">#FF005FB2</color>
 	<color name="slds_color_border_icon_inverse_hint" category="BorderColor">#80FFFFFF</color>
 	<color name="slds_color_border_icon_inverse_hint_hover" category="BorderColor">#BFFFFFFF</color>
 	<color name="slds_color_border_button_brand" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_border_button_brand_disabled" category="BorderColor">#00000000</color>
-	<color name="slds_color_border_button_default" category="BorderColor">#FFD8DDE6</color>
+	<color name="slds_color_border_button_default" category="BorderColor">#FFD9DBDD</color>
 	<color name="slds_color_border_button_inverse_disabled" category="BorderColor">#26FFFFFF</color>
-	<color name="slds_color_border_input" category="BorderColor">#FFD8DDE6</color>
+	<color name="slds_color_border_input" category="BorderColor">#FFD9DBDD</color>
 	<color name="slds_color_border_input_active" category="BorderColor">#FF1589EE</color>
-	<color name="slds_color_border_input_disabled" category="BorderColor">#FFA8B7C7</color>
+	<color name="slds_color_border_input_disabled" category="BorderColor">#FFC4C6CA</color>
 	<color name="slds_color_border_input_checkbox_selected_checkmark" category="BorderColor">#FFFFFFFF</color>
 	<color name="slds_color_border_toggle_checked" category="BorderColor">#FFFFFFFF</color>
+	<color name="slds_color_border_reminder" category="BorderColor">#FFA8B7C7</color>
 	<color name="slds_color_stroke_brand" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_stroke_brand_hover" category="BorderColor">#FF0070D2</color>
 	<color name="slds_color_stroke_brand_active" category="BorderColor">#FF16325C</color>
-	<color name="slds_color_stroke_disabled" category="BorderColor">#FFE0E5EE</color>
-	<color name="slds_color_stroke_header_button" category="BorderColor">#FF9FAAB5</color>
+	<color name="slds_color_stroke_disabled" category="BorderColor">#FFE9EAEC</color>
+	<color name="slds_color_stroke_header_button" category="BorderColor">#FFABADB0</color>
+	<color name="slds_button_color_border_primary" category="BorderColor">#FFD8DDE6</color>
+	<color name="slds_button_color_border_brand_primary" category="BorderColor">#FF0070D2</color>
+	<color name="slds_button_color_border_secondary" category="BorderColor">#CCFFFFFF</color>
+	<color name="slds_card_color_border" category="BorderColor">#FFDDDBDA</color>
+	<color name="slds_card_footer_color_border" category="BorderColor">#00000000</color>
+	<color name="slds_color_picker_slider_thumb_border_color" category="BorderColor">#FF514F4D</color>
 	<color name="slds_color_border_context_bar_divider" category="BorderColor">#33FFFFFF</color>
 	<color name="slds_color_border_context_bar_item" category="BorderColor">#33000000</color>
 	<color name="slds_color_border_context_bar_inverse_item" category="BorderColor">#33FFFFFF</color>
 	<color name="slds_color_border_context_bar_theme_default" category="BorderColor">#FF00A1DF</color>
-	<color name="slds_color_border_context_bar_theme_default_alt" category="BorderColor">#FFDFE4EE</color>
+	<color name="slds_color_border_context_bar_theme_default_alt" category="BorderColor">#FFF3F2F2</color>
 	<color name="slds_color_border_context_bar_theme_default_hover" category="BorderColor">#FF0B2399</color>
-	<color name="slds_color_border_context_bar_theme_default_active" category="BorderColor">#FFDFE4EE</color>
+	<color name="slds_color_border_context_bar_theme_default_active" category="BorderColor">#FFF3F2F2</color>
+	<color name="slds_page_header_color_border" category="BorderColor">#FFDDDBDA</color>
+	<color name="slds_page_header_joined_color_border" category="BorderColor">#FFDDDBDA</color>
 	<color name="slds_color_border_path_divider" category="BorderColor">#FFFFFFFF</color>
 	<color name="slds_progress_color_border" category="BorderColor">#FFFFFFFF</color>
-	<color name="slds_progress_color_border_shade" category="BorderColor">#FFF4F6F9</color>
+	<color name="slds_progress_color_border_shade" category="BorderColor">#FFFAFAF9</color>
 	<color name="slds_progress_color_border_hover" category="BorderColor">#FF0070D2</color>
 	<color name="slds_progress_color_border_active" category="BorderColor">#FF1589EE</color>
-	<color name="slds_split_view_color_border" category="BorderColor">#FF2C3646</color>
+	<color name="slds_split_view_color_border" category="BorderColor">#FFDDDBDA</color>
 	
 <!-- BackgroundColor -->
-	<color name="slds_color_background" category="BackgroundColor">#FFF4F6F9</color>
+	<color name="slds_color_background_primary" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_secondary" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_foreground_primary" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_contrast_primary" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_contrast_secondary" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_brand_primary" category="BackgroundColor">#FF0070D2</color>
+	<color name="slds_color_background_brand_primary_hover" category="BackgroundColor">#FF005FB2</color>
+	<color name="slds_color_background_brand_primary_focus" category="BackgroundColor">#FF005FB2</color>
+	<color name="slds_color_background_brand_primary_active" category="BackgroundColor">#FF00396B</color>
+	<color name="slds_page_color_background_primary" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background" category="BackgroundColor">#FFF9F9FA</color>
 	<color name="slds_color_background_alt" category="BackgroundColor">#FFFFFFFF</color>
-	<color name="slds_color_background_alt_2" category="BackgroundColor">#FFEEF1F6</color>
+	<color name="slds_color_background_alt_2" category="BackgroundColor">#FFF2F2F3</color>
 	<color name="slds_color_background_alt_inverse" category="BackgroundColor">#FF16325C</color>
-	<color name="slds_color_background_row_hover" category="BackgroundColor">#FFF4F6F9</color>
-	<color name="slds_color_background_row_active" category="BackgroundColor">#FFEEF1F6</color>
-	<color name="slds_color_background_row_selected" category="BackgroundColor">#FFF0F8FC</color>
+	<color name="slds_color_background_row_hover" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_background_row_active" category="BackgroundColor">#FFF2F2F3</color>
+	<color name="slds_color_background_row_selected" category="BackgroundColor">#FFE9EAEC</color>
 	<color name="slds_color_background_row_new" category="BackgroundColor">#FFD9FFDF</color>
 	<color name="slds_color_background_inverse" category="BackgroundColor">#FF061C3F</color>
-	<color name="slds_color_background_browser" category="BackgroundColor">#FF54698D</color>
+	<color name="slds_color_background_browser" category="BackgroundColor">#FF6B6D70</color>
 	<color name="slds_color_background_chrome_mobile" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_background_chrome_desktop" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_customer" category="BackgroundColor">#FFFF9A3C</color>
 	<color name="slds_color_background_highlight" category="BackgroundColor">#FFFAFFBD</color>
 	<color name="slds_color_background_highlight_search" category="BackgroundColor">#FFFFF03F</color>
 	<color name="slds_color_background_selection" category="BackgroundColor">#FFD8EDFF</color>
-	<color name="slds_color_background_actionbar_icon_utility" category="BackgroundColor">#FF54698D</color>
+	<color name="slds_color_background_actionbar_icon_utility" category="BackgroundColor">#FF6B6D70</color>
 	<color name="slds_color_background_indicator_dot" category="BackgroundColor">#FF16325C</color>
-	<color name="slds_color_background_spinner_dot" category="BackgroundColor">#FF9FAAB5</color>
+	<color name="slds_color_background_spinner_dot" category="BackgroundColor">#FFABADB0</color>
 	<color name="slds_color_background_modal" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_modal_brand" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_background_notification_badge" category="BackgroundColor">#FFC23934</color>
@@ -99,29 +123,29 @@
 	<color name="slds_color_background_notification_badge_focus" category="BackgroundColor">#FF005FB2</color>
 	<color name="slds_color_background_notification_badge_active" category="BackgroundColor">#FF00396B</color>
 	<color name="slds_color_background_notification" category="BackgroundColor">#FFFFFFFF</color>
-	<color name="slds_color_background_notification_new" category="BackgroundColor">#FFF0F8FC</color>
+	<color name="slds_color_background_notification_new" category="BackgroundColor">#FFF9F9FA</color>
 	<color name="slds_color_background_org_switcher_arrow" category="BackgroundColor">#FF061C3F</color>
-	<color name="slds_color_background_payload" category="BackgroundColor">#FFF4F6F9</color>
-	<color name="slds_color_background_post" category="BackgroundColor">#FFF7F9FB</color>
-	<color name="slds_color_background_utility_bar_hover" category="BackgroundColor">#FFE0E5EE</color>
+	<color name="slds_color_background_payload" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_background_post" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_background_utility_bar_hover" category="BackgroundColor">#FFE9EAEC</color>
 	<color name="slds_color_background_utility_bar_active" category="BackgroundColor">#FF1589EE</color>
-	<color name="slds_color_background_shade" category="BackgroundColor">#FFE0E5EE</color>
-	<color name="slds_color_background_shade_dark" category="BackgroundColor">#FFD8DDE6</color>
-	<color name="slds_color_background_stencil" category="BackgroundColor">#FFEEF1F6</color>
-	<color name="slds_color_background_stencil_alt" category="BackgroundColor">#FFE0E5EE</color>
-	<color name="slds_color_background_temp_modal" category="BackgroundColor">#CC7E8C99</color>
+	<color name="slds_color_background_shade" category="BackgroundColor">#FFE9EAEC</color>
+	<color name="slds_color_background_shade_dark" category="BackgroundColor">#FFD9DBDD</color>
+	<color name="slds_color_background_stencil" category="BackgroundColor">#FFF2F2F3</color>
+	<color name="slds_color_background_stencil_alt" category="BackgroundColor">#FFE9EAEC</color>
+	<color name="slds_color_background_temp_modal" category="BackgroundColor">#FF919297</color>
 	<color name="slds_color_background_temp_modal_tint" category="BackgroundColor">#CC7E8C99</color>
 	<color name="slds_color_background_temp_modal_tint_alt" category="BackgroundColor">#BFFFFFFF</color>
 	<color name="slds_color_background_backdrop" category="BackgroundColor">#BFFFFFFF</color>
-	<color name="slds_color_background_backdrop_tint" category="BackgroundColor">#BFF0F8FC</color>
-	<color name="slds_color_background_scrollbar" category="BackgroundColor">#FFE0E5EE</color>
-	<color name="slds_color_background_scrollbar_track" category="BackgroundColor">#FFA8B7C7</color>
+	<color name="slds_color_background_backdrop_tint" category="BackgroundColor">#FFF9F9FA</color>
+	<color name="slds_color_background_scrollbar" category="BackgroundColor">#FFE9EAEC</color>
+	<color name="slds_color_background_scrollbar_track" category="BackgroundColor">#FFC4C6CA</color>
 	<color name="slds_color_brand" category="BackgroundColor">#FF1589EE</color>
 	<color name="slds_color_brand_dark" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_brand_darker" category="BackgroundColor">#FF005FB2</color>
-	<color name="slds_color_background_toggle" category="BackgroundColor">#FF9FAAB5</color>
-	<color name="slds_color_background_toggle_disabled" category="BackgroundColor">#FF9FAAB5</color>
-	<color name="slds_color_background_toggle_hover" category="BackgroundColor">#FF7E8C99</color>
+	<color name="slds_color_background_toggle" category="BackgroundColor">#FFABADB0</color>
+	<color name="slds_color_background_toggle_disabled" category="BackgroundColor">#FFABADB0</color>
+	<color name="slds_color_background_toggle_hover" category="BackgroundColor">#FF919297</color>
 	<color name="slds_color_background_toggle_active" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_background_toggle_active_hover" category="BackgroundColor">#FF005FB2</color>
 	<color name="slds_color_background_modal_button" category="BackgroundColor">#12000000</color>
@@ -129,9 +153,9 @@
 	<color name="slds_color_background_input" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_input_active" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_input_checkbox" category="BackgroundColor">#FFFFFFFF</color>
-	<color name="slds_color_background_input_checkbox_disabled" category="BackgroundColor">#FFD8DDE6</color>
+	<color name="slds_color_background_input_checkbox_disabled" category="BackgroundColor">#FFD9DBDD</color>
 	<color name="slds_color_background_input_checkbox_selected" category="BackgroundColor">#FF1589EE</color>
-	<color name="slds_color_background_input_disabled" category="BackgroundColor">#FFE0E5EE</color>
+	<color name="slds_color_background_input_disabled" category="BackgroundColor">#FFE9EAEC</color>
 	<color name="slds_color_background_input_error" category="BackgroundColor">#FFFFDDE1</color>
 	<color name="slds_color_background_input_search" category="BackgroundColor">#29000000</color>
 	<color name="slds_color_background_pill" category="BackgroundColor">#FFFFFFFF</color>
@@ -139,20 +163,29 @@
 	<color name="slds_color_background_destructive" category="BackgroundColor">#FFC23934</color>
 	<color name="slds_color_background_destructive_hover" category="BackgroundColor">#FFA61A14</color>
 	<color name="slds_color_background_destructive_active" category="BackgroundColor">#FF870500</color>
-	<color name="slds_color_background_info" category="BackgroundColor">#FF54698D</color>
+	<color name="slds_color_background_info" category="BackgroundColor">#FF6B6D70</color>
 	<color name="slds_color_background_error" category="BackgroundColor">#FFD4504C</color>
 	<color name="slds_color_background_error_dark" category="BackgroundColor">#FFC23934</color>
 	<color name="slds_color_background_error_alt" category="BackgroundColor">#FFEA8288</color>
-	<color name="slds_color_background_offline" category="BackgroundColor">#FF444444</color>
+	<color name="slds_color_background_offline" category="BackgroundColor">#FF3E4041</color>
 	<color name="slds_color_background_success" category="BackgroundColor">#FF4BCA81</color>
 	<color name="slds_color_background_success_dark" category="BackgroundColor">#FF04844B</color>
-	<color name="slds_color_background_toast" category="BackgroundColor">#F254698D</color>
-	<color name="slds_color_background_toast_success" category="BackgroundColor">#F204844B</color>
-	<color name="slds_color_background_toast_error" category="BackgroundColor">#F2C23934</color>
+	<color name="slds_color_background_toast" category="BackgroundColor">#FF6B6D70</color>
+	<color name="slds_color_background_toast_success" category="BackgroundColor">#FF04844B</color>
+	<color name="slds_color_background_toast_error" category="BackgroundColor">#FFC23934</color>
 	<color name="slds_color_background_warning" category="BackgroundColor">#FFFFB75D</color>
 	<color name="slds_color_background_button_success" category="BackgroundColor">#FF4BCA81</color>
 	<color name="slds_color_background_button_success_hover" category="BackgroundColor">#FF04844B</color>
 	<color name="slds_color_background_button_success_active" category="BackgroundColor">#FF04844B</color>
+	<color name="slds_badge_color_background_lightest" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_badge_color_background_inverse" category="BackgroundColor">#FF706E6B</color>
+	<color name="slds_brand_band_color_background_primary" category="BackgroundColor">#00000000</color>
+	<color name="slds_brand_band_color_background_primary_transparent" category="BackgroundColor">#00000000</color>
+	<color name="slds_brand_band_color_background_secondary" category="BackgroundColor">#00000000</color>
+	<color name="slds_brand_band_color_background_secondary_transparent" category="BackgroundColor">#00000000</color>
+	<color name="slds_button_color_background_primary" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_button_color_background_brand_primary" category="BackgroundColor">#FF0070D2</color>
+	<color name="slds_button_color_background_secondary" category="BackgroundColor">#CCFFFFFF</color>
 	<color name="slds_color_background_button_brand" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_background_button_brand_active" category="BackgroundColor">#FF00396B</color>
 	<color name="slds_color_background_button_brand_hover" category="BackgroundColor">#FF005FB2</color>
@@ -171,35 +204,67 @@
 	<color name="slds_color_background_button_inverse_active" category="BackgroundColor">#3D000000</color>
 	<color name="slds_color_background_button_inverse_disabled" category="BackgroundColor">#00000000</color>
 	<color name="slds_card_color_background" category="BackgroundColor">#FFFFFFFF</color>
-	<color name="slds_color_background_docked_panel_header" category="BackgroundColor">#FFF7F9FB</color>
+	<color name="slds_color_picker_slider_thumb_color_background" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_table_color_background_stripes" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_table_color_background_header" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_table_color_background_header_hover" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_table_color_background_header_focus" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_docked_panel_header" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_docked_panel" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_utility_bar_color_background_notification_badge" category="BackgroundColor">#FFD4504C</color>
+	<color name="slds_utility_bar_color_background_notification_focus" category="BackgroundColor">#FFC9C7C5</color>
+	<color name="slds_color_background_icon_waffle" category="BackgroundColor">#FF706E6B</color>
+	<color name="slds_global_header_color_background" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_context_bar" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_context_bar_brand_accent" category="BackgroundColor">#FF00A1DF</color>
-	<color name="slds_color_background_context_bar_item_hover" category="BackgroundColor">#FFF7F9FB</color>
-	<color name="slds_color_background_context_bar_item_active" category="BackgroundColor">#FFF7F9FB</color>
 	<color name="slds_color_background_context_tab_bar_item" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_context_bar_item_hover" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_context_bar_item_active" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_context_bar_inverse_item_hover" category="BackgroundColor">#33FFFFFF</color>
 	<color name="slds_color_background_context_bar_inverse_item_active" category="BackgroundColor">#66FFFFFF</color>
 	<color name="slds_color_background_context_bar_action_highlight" category="BackgroundColor">#33FFFFFF</color>
-	<color name="slds_color_background_icon_waffle" category="BackgroundColor">#FF54698D</color>
-	<color name="slds_color_background_anchor" category="BackgroundColor">#FFF4F6F9</color>
-	<color name="slds_color_background_page_header" category="BackgroundColor">#FFF7F9FB</color>
+	<color name="slds_page_header_color_background" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_page_header_color_background_alt" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_anchor" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_color_background_page_header" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_color_background_path_complete" category="BackgroundColor">#FF4BCA81</color>
-	<color name="slds_color_background_path_complete_hover" category="BackgroundColor">#F204844B</color>
+	<color name="slds_color_background_path_complete_hover" category="BackgroundColor">#FF04844B</color>
 	<color name="slds_color_background_path_current" category="BackgroundColor">#FF0070D2</color>
 	<color name="slds_color_background_path_current_hover" category="BackgroundColor">#FF005FB2</color>
-	<color name="slds_color_background_path_incomplete" category="BackgroundColor">#FFE0E5EE</color>
-	<color name="slds_color_background_path_incomplete_hover" category="BackgroundColor">#FFD8DDE6</color>
+	<color name="slds_color_background_path_incomplete" category="BackgroundColor">#FFECEBEA</color>
+	<color name="slds_color_background_path_incomplete_hover" category="BackgroundColor">#FFDDDBDA</color>
 	<color name="slds_color_background_path_lost" category="BackgroundColor">#FFC23934</color>
-	<color name="slds_color_background_guidance" category="BackgroundColor">#FFFAFAFB</color>
+	<color name="slds_color_background_guidance" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_color_background_path_expanded" category="BackgroundColor">#FFFFFFFF</color>
 	<color name="slds_progress_color_background" category="BackgroundColor">#FFFFFFFF</color>
-	<color name="slds_progress_color_background_shade" category="BackgroundColor">#FFF4F6F9</color>
-	<color name="slds_progress_bar_color_background" category="BackgroundColor">#FFD8DDE6</color>
+	<color name="slds_progress_color_background_shade" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_progress_bar_color_background" category="BackgroundColor">#FFDDDBDA</color>
 	<color name="slds_progress_bar_color_background_fill" category="BackgroundColor">#FF5EB4FF</color>
-	<color name="slds_split_view_color_background" category="BackgroundColor">#FF333E4F</color>
-	<color name="slds_split_view_color_background_row_hover" category="BackgroundColor">#FF414C5E</color>
+	<color name="slds_progress_bar_color_background_fill_success" category="BackgroundColor">#FF4BCA81</color>
+	<color name="slds_color_background_progress_ring_content" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_notification_color_background_inverse" category="BackgroundColor">#FF706E6B</color>
+	<color name="slds_slider_handle_color_background" category="BackgroundColor">#FF1589EE</color>
+	<color name="slds_slider_handle_color_background_hover" category="BackgroundColor">#FF0070D2</color>
+	<color name="slds_slider_handle_color_background_focus" category="BackgroundColor">#FF0070D2</color>
+	<color name="slds_slider_handle_color_background_active" category="BackgroundColor">#FF0070D2</color>
+	<color name="slds_slider_track_color_background" category="BackgroundColor">#FFECEBEA</color>
+	<color name="slds_slider_track_color_background_fill" category="BackgroundColor">#FF1589EE</color>
+	<color name="slds_slider_color_background_disabled" category="BackgroundColor">#FFECEBEA</color>
+	<color name="slds_split_view_color_background" category="BackgroundColor">#FFFAFAF9</color>
+	<color name="slds_split_view_color_background_row_hover" category="BackgroundColor">#FFFFFFFF</color>
+	<color name="slds_vertical_navigation_color_background_shade_row_hover" category="BackgroundColor">#FFF3F2F2</color>
+	<color name="slds_vertical_navigation_color_background_shade_row_active" category="BackgroundColor">#FFECEBEA</color>
 	
 <!-- TextColor -->
-	<color name="slds_color_text_action_label" category="TextColor">#FF54698D</color>
+	<color name="slds_color_text_primary" category="TextColor">#FF16325C</color>
+	<color name="slds_color_text_secondary" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_tertiary" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_brand_primary" category="TextColor">#FFFFFFFF</color>
+	<color name="slds_color_text_link_primary" category="TextColor">#FF0070D2</color>
+	<color name="slds_color_text_link_primary_hover" category="TextColor">#FF0070D2</color>
+	<color name="slds_color_text_link_primary_active" category="TextColor">#FF00396B</color>
+	<color name="slds_color_text_link_primary_focus" category="TextColor">#FF0070D2</color>
+	<color name="slds_color_text_action_label" category="TextColor">#FF6B6D70</color>
 	<color name="slds_color_text_action_label_active" category="TextColor">#FF16325C</color>
 	<color name="slds_color_text_brand" category="TextColor">#FF1589EE</color>
 	<color name="slds_color_text_browser" category="TextColor">#FFFFFFFF</color>
@@ -207,13 +272,13 @@
 	<color name="slds_color_text_customer" category="TextColor">#FFFF9A3C</color>
 	<color name="slds_color_text_default" category="TextColor">#FF16325C</color>
 	<color name="slds_color_text_error" category="TextColor">#FFC23934</color>
-	<color name="slds_color_text_input_disabled" category="TextColor">#FF54698D</color>
+	<color name="slds_color_text_input_disabled" category="TextColor">#FF6B6D70</color>
 	<color name="slds_color_text_input_focus_inverse" category="TextColor">#FF16325C</color>
-	<color name="slds_color_text_input_icon" category="TextColor">#FF9FAAB5</color>
+	<color name="slds_color_text_input_icon" category="TextColor">#FFABADB0</color>
 	<color name="slds_color_text_inverse" category="TextColor">#FFFFFFFF</color>
-	<color name="slds_color_text_inverse_weak" category="TextColor">#FF9FAAB5</color>
+	<color name="slds_color_text_inverse_weak" category="TextColor">#FFABADB0</color>
 	<color name="slds_color_text_inverse_active" category="TextColor">#FF5EB4FF</color>
-	<color name="slds_color_text_inverse_hover" category="TextColor">#FF9FAAB5</color>
+	<color name="slds_color_text_inverse_hover" category="TextColor">#FFABADB0</color>
 	<color name="slds_color_text_link" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_link_active" category="TextColor">#FF00396B</color>
 	<color name="slds_color_text_link_disabled" category="TextColor">#FF16325C</color>
@@ -224,21 +289,21 @@
 	<color name="slds_color_text_link_inverse_active" category="TextColor">#80FFFFFF</color>
 	<color name="slds_color_text_link_inverse_disabled" category="TextColor">#26FFFFFF</color>
 	<color name="slds_color_text_modal" category="TextColor">#FFFFFFFF</color>
-	<color name="slds_color_text_modal_button" category="TextColor">#FF54698D</color>
-	<color name="slds_color_text_stage_left" category="TextColor">#FFE0E5EE</color>
+	<color name="slds_color_text_modal_button" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_stage_left" category="TextColor">#FFE9EAEC</color>
 	<color name="slds_color_text_tab_label" category="TextColor">#FF16325C</color>
 	<color name="slds_color_text_tab_label_selected" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_tab_label_hover" category="TextColor">#FF005FB2</color>
 	<color name="slds_color_text_tab_label_focus" category="TextColor">#FF005FB2</color>
 	<color name="slds_color_text_tab_label_active" category="TextColor">#FF00396B</color>
-	<color name="slds_color_text_tab_label_disabled" category="TextColor">#FFE0E5EE</color>
-	<color name="slds_color_text_toast" category="TextColor">#FFE0E5EE</color>
+	<color name="slds_color_text_tab_label_disabled" category="TextColor">#FFE9EAEC</color>
+	<color name="slds_color_text_toast" category="TextColor">#FFE9EAEC</color>
 	<color name="slds_color_text_warning" category="TextColor">#FFFFB75D</color>
 	<color name="slds_color_text_warning_alt" category="TextColor">#FF844800</color>
-	<color name="slds_color_text_weak" category="TextColor">#FF54698D</color>
+	<color name="slds_color_text_weak" category="TextColor">#FF6B6D70</color>
 	<color name="slds_color_text_icon_brand" category="TextColor">#FF0070D2</color>
-	<color name="slds_color_text_icon_utility" category="TextColor">#FF9FAAB5</color>
-	<color name="slds_color_text_toggle_disabled" category="TextColor">#FFD8DDE6</color>
+	<color name="slds_color_text_icon_utility" category="TextColor">#FFABADB0</color>
+	<color name="slds_color_text_toggle_disabled" category="TextColor">#FFD9DBDD</color>
 	<color name="slds_color_text_button_brand" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_button_brand_hover" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_button_brand_active" category="TextColor">#FFFFFFFF</color>
@@ -246,32 +311,49 @@
 	<color name="slds_color_text_button_default" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_button_default_hover" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_button_default_active" category="TextColor">#FF0070D2</color>
-	<color name="slds_color_text_button_default_disabled" category="TextColor">#FFD8DDE6</color>
-	<color name="slds_color_text_button_default_hint" category="TextColor">#FF9FAAB5</color>
-	<color name="slds_color_text_button_inverse" category="TextColor">#FFE0E5EE</color>
+	<color name="slds_color_text_button_default_disabled" category="TextColor">#FFD9DBDD</color>
+	<color name="slds_color_text_button_default_hint" category="TextColor">#FFABADB0</color>
+	<color name="slds_color_text_button_inverse" category="TextColor">#FFE9EAEC</color>
 	<color name="slds_color_text_button_inverse_disabled" category="TextColor">#26FFFFFF</color>
-	<color name="slds_color_text_icon_default" category="TextColor">#FF54698D</color>
-	<color name="slds_color_text_icon_default_hint" category="TextColor">#FF9FAAB5</color>
+	<color name="slds_color_text_icon_default" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_icon_default_hint" category="TextColor">#FFABADB0</color>
 	<color name="slds_color_text_icon_inverse_hint" category="TextColor">#80FFFFFF</color>
-	<color name="slds_color_text_icon_default_hint_borderless" category="TextColor">#FFE0E5EE</color>
+	<color name="slds_color_text_icon_default_hint_borderless" category="TextColor">#FFE9EAEC</color>
 	<color name="slds_color_text_icon_default_hover" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_icon_default_active" category="TextColor">#FF00396B</color>
-	<color name="slds_color_text_icon_default_disabled" category="TextColor">#FFD8DDE6</color>
+	<color name="slds_color_text_icon_default_disabled" category="TextColor">#FFD9DBDD</color>
 	<color name="slds_color_text_icon_inverse" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_icon_inverse_hover" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_icon_inverse_active" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_icon_inverse_disabled" category="TextColor">#26FFFFFF</color>
 	<color name="slds_color_text_icon_inverse_hint_hover" category="TextColor">#BFFFFFFF</color>
-	<color name="slds_color_text_label" category="TextColor">#FF54698D</color>
-	<color name="slds_color_text_placeholder" category="TextColor">#FF54698D</color>
-	<color name="slds_color_text_placeholder_inverse" category="TextColor">#FFE0E5EE</color>
+	<color name="slds_color_text_label" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_placeholder" category="TextColor">#FF6B6D70</color>
+	<color name="slds_color_text_placeholder_inverse" category="TextColor">#FFE9EAEC</color>
 	<color name="slds_color_text_required" category="TextColor">#FFC23934</color>
 	<color name="slds_color_text_pill" category="TextColor">#FF0070D2</color>
 	<color name="slds_color_text_success" category="TextColor">#FF028048</color>
 	<color name="slds_color_text_success_inverse" category="TextColor">#FF4BCA81</color>
-	<color name="slds_color_text_context_bar" category="TextColor">#FF54698D</color>
+	<color name="slds_button_color_text_primary" category="TextColor">#FFFFFFFF</color>
+	<color name="slds_table_color_text_header" category="TextColor">#FF514F4D</color>
+	<color name="slds_color_text_context_bar" category="TextColor">#FF706E6B</color>
 	<color name="slds_color_text_context_bar_inverse" category="TextColor">#FFFFFFFF</color>
 	<color name="slds_color_text_context_bar_action_trigger" category="TextColor">#66FFFFFF</color>
+	<color name="slds_input_static_color" category="TextColor">#FF2B2826</color>
+	
+<!-- Color -->
+	<color name="slds_color_gray_1" category="Color">#FFFFFFFF</color>
+	<color name="slds_color_gray_2" category="Color">#FFFAFAF9</color>
+	<color name="slds_color_gray_3" category="Color">#FFF3F2F2</color>
+	<color name="slds_color_gray_4" category="Color">#FFECEBEA</color>
+	<color name="slds_color_gray_5" category="Color">#FFDDDBDA</color>
+	<color name="slds_color_gray_6" category="Color">#FFC9C7C5</color>
+	<color name="slds_color_gray_7" category="Color">#FFB0ADAB</color>
+	<color name="slds_color_gray_8" category="Color">#FF969492</color>
+	<color name="slds_color_gray_9" category="Color">#FF706E6B</color>
+	<color name="slds_color_gray_10" category="Color">#FF514F4D</color>
+	<color name="slds_color_gray_11" category="Color">#FF3E3E3C</color>
+	<color name="slds_color_gray_12" category="Color">#FF2B2826</color>
 	
 
 
@@ -281,6 +363,8 @@
 <!-- Action icon background colors -->
 
 	<color name="slds_icon_action_add_contact" category="icon-background-color">#FFA094ED</color>
+	<color name="slds_icon_action_add_file" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_action_add_photo_video" category="icon-background-color">#FF00CDC0</color>
 	<color name="slds_icon_action_add_relationship" category="icon-background-color">#FF62B7ED</color>
 	<color name="slds_icon_action_announcement" category="icon-background-color">#FFFE8F60</color>
 	<color name="slds_icon_action_apex" category="icon-background-color">#FF696E71</color>
@@ -438,6 +522,7 @@
 	<color name="slds_icon_action_priority" category="icon-background-color">#FFFBB439</color>
 	<color name="slds_icon_action_question_post_action" category="icon-background-color">#FF32AF5C</color>
 	<color name="slds_icon_action_quote" category="icon-background-color">#FF88C651</color>
+	<color name="slds_icon_action_recall" category="icon-background-color">#FF4A698D</color>
 	<color name="slds_icon_action_record" category="icon-background-color">#FF7DC37D</color>
 	<color name="slds_icon_action_refresh" category="icon-background-color">#FF54698D</color>
 	<color name="slds_icon_action_reject" category="icon-background-color">#FF00C6B7</color>
@@ -586,9 +671,12 @@
 	<color name="slds_icon_standard_apps" category="icon-background-color">#FF3C97DD</color>
 	<color name="slds_icon_standard_apps_admin" category="icon-background-color">#FF9895EE</color>
 	<color name="slds_icon_standard_article" category="icon-background-color">#FFF2CF5B</color>
+	<color name="slds_icon_standard_asset_relationship" category="icon-background-color">#FFFA975C</color>
 	<color name="slds_icon_standard_assigned_resource" category="icon-background-color">#FF45C173</color>
 	<color name="slds_icon_standard_avatar" category="icon-background-color">#FF62B7ED</color>
 	<color name="slds_icon_standard_avatar_loading" category="icon-background-color">#FFB8C3CE</color>
+	<color name="slds_icon_standard_bot" category="icon-background-color">#FF54698F</color>
+	<color name="slds_icon_standard_business_hours" category="icon-background-color">#FF7DC37D</color>
 	<color name="slds_icon_standard_calibration" category="icon-background-color">#FF47CFD2</color>
 	<color name="slds_icon_standard_call" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_call_history" category="icon-background-color">#FFF2CF5B</color>
@@ -601,12 +689,16 @@
 	<color name="slds_icon_standard_case_comment" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_case_email" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_case_log_a_call" category="icon-background-color">#FFF2CF5B</color>
+	<color name="slds_icon_standard_case_milestone" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_case_transcript" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_client" category="icon-background-color">#FF00D2BE</color>
+	<color name="slds_icon_standard_cms" category="icon-background-color">#FF88C651</color>
 	<color name="slds_icon_standard_coaching" category="icon-background-color">#FFF67594</color>
 	<color name="slds_icon_standard_connected_apps" category="icon-background-color">#FF9895EE</color>
 	<color name="slds_icon_standard_contact" category="icon-background-color">#FFA094ED</color>
+	<color name="slds_icon_standard_contact_list" category="icon-background-color">#FFA094ED</color>
 	<color name="slds_icon_standard_contract" category="icon-background-color">#FF6EC06E</color>
+	<color name="slds_icon_standard_contract_line_item" category="icon-background-color">#FF6EC06E</color>
 	<color name="slds_icon_standard_custom" category="icon-background-color">#FF8199AF</color>
 	<color name="slds_icon_standard_custom_notification" category="icon-background-color">#FF6BB7E4</color>
 	<color name="slds_icon_standard_dashboard" category="icon-background-color">#FFEF6E64</color>
@@ -618,6 +710,11 @@
 	<color name="slds_icon_standard_email_chatter" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_empty" category="icon-background-color">#FF8199AF</color>
 	<color name="slds_icon_standard_endorsement" category="icon-background-color">#FF8B9AE3</color>
+	<color name="slds_icon_standard_entitlement" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_entitlement_process" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_entitlement_template" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_entity" category="icon-background-color">#FFF88962</color>
+	<color name="slds_icon_standard_entity_milestone" category="icon-background-color">#FFF49756</color>
 	<color name="slds_icon_standard_environment_hub" category="icon-background-color">#FF54698D</color>
 	<color name="slds_icon_standard_event" category="icon-background-color">#FFEB7092</color>
 	<color name="slds_icon_standard_feed" category="icon-background-color">#FF62B7ED</color>
@@ -636,16 +733,25 @@
 	<color name="slds_icon_standard_insights" category="icon-background-color">#FFEC94ED</color>
 	<color name="slds_icon_standard_investment_account" category="icon-background-color">#FF4BC076</color>
 	<color name="slds_icon_standard_lead" category="icon-background-color">#FFF88962</color>
+	<color name="slds_icon_standard_lead_insights" category="icon-background-color">#FF22B0E6</color>
+	<color name="slds_icon_standard_lead_list" category="icon-background-color">#FFF88962</color>
 	<color name="slds_icon_standard_link" category="icon-background-color">#FF7A9AE6</color>
+	<color name="slds_icon_standard_list_email" category="icon-background-color">#FF8BAEB5</color>
+	<color name="slds_icon_standard_live_chat" category="icon-background-color">#FFF88960</color>
 	<color name="slds_icon_standard_location" category="icon-background-color">#FF4BC076</color>
 	<color name="slds_icon_standard_log_a_call" category="icon-background-color">#FF48C3CC</color>
+	<color name="slds_icon_standard_macros" category="icon-background-color">#FF47CFD2</color>
+	<color name="slds_icon_standard_maintenance_asset" category="icon-background-color">#FF2A739E</color>
+	<color name="slds_icon_standard_maintenance_plan" category="icon-background-color">#FF2A739E</color>
 	<color name="slds_icon_standard_marketing_actions" category="icon-background-color">#FF6BBD6E</color>
 	<color name="slds_icon_standard_merge" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_metrics" category="icon-background-color">#FF56AADF</color>
 	<color name="slds_icon_standard_news" category="icon-background-color">#FF7F8DE1</color>
 	<color name="slds_icon_standard_note" category="icon-background-color">#FFE6D478</color>
+	<color name="slds_icon_standard_omni_supervisor" category="icon-background-color">#FF8A76F0</color>
 	<color name="slds_icon_standard_operating_hours" category="icon-background-color">#FF6B9EE2</color>
 	<color name="slds_icon_standard_opportunity" category="icon-background-color">#FFFCB95B</color>
+	<color name="slds_icon_standard_opportunity_splits" category="icon-background-color">#FFFCB95B</color>
 	<color name="slds_icon_standard_orders" category="icon-background-color">#FF769ED9</color>
 	<color name="slds_icon_standard_people" category="icon-background-color">#FF34BECD</color>
 	<color name="slds_icon_standard_performance" category="icon-background-color">#FFF8B156</color>
@@ -660,10 +766,15 @@
 	<color name="slds_icon_standard_product_consumed" category="icon-background-color">#FF55BC9C</color>
 	<color name="slds_icon_standard_product_item" category="icon-background-color">#FF769ED9</color>
 	<color name="slds_icon_standard_product_item_transaction" category="icon-background-color">#FFF88962</color>
+	<color name="slds_icon_standard_product_request" category="icon-background-color">#FF88C651</color>
+	<color name="slds_icon_standard_product_request_line_item" category="icon-background-color">#FF88C651</color>
 	<color name="slds_icon_standard_product_required" category="icon-background-color">#FFEF6E64</color>
 	<color name="slds_icon_standard_product_transfer" category="icon-background-color">#FFF88962</color>
 	<color name="slds_icon_standard_question_best" category="icon-background-color">#FFF2CF5B</color>
 	<color name="slds_icon_standard_question_feed" category="icon-background-color">#FFF2CF5B</color>
+	<color name="slds_icon_standard_quick_text" category="icon-background-color">#FF62B7E5</color>
+	<color name="slds_icon_standard_quip" category="icon-background-color">#FF25B4E9</color>
+	<color name="slds_icon_standard_quip_sheet" category="icon-background-color">#FF30C85A</color>
 	<color name="slds_icon_standard_quotes" category="icon-background-color">#FF88C651</color>
 	<color name="slds_icon_standard_recent" category="icon-background-color">#FF6CA1E9</color>
 	<color name="slds_icon_standard_record" category="icon-background-color">#FF7DC37D</color>
@@ -680,10 +791,14 @@
 	<color name="slds_icon_standard_scan_card" category="icon-background-color">#FFF39E58</color>
 	<color name="slds_icon_standard_service_appointment" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_service_contract" category="icon-background-color">#FF8A76F0</color>
+	<color name="slds_icon_standard_service_crew" category="icon-background-color">#FFFA975C</color>
+	<color name="slds_icon_standard_service_crew_member" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_service_report" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_service_resource" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_service_territory" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_service_territory_location" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_service_territory_member" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_shipment" category="icon-background-color">#FF7E8BE4</color>
 	<color name="slds_icon_standard_skill" category="icon-background-color">#FFFA975C</color>
 	<color name="slds_icon_standard_skill_entity" category="icon-background-color">#FF8B9AE3</color>
 	<color name="slds_icon_standard_skill_requirement" category="icon-background-color">#FFFA975C</color>
@@ -693,11 +808,15 @@
 	<color name="slds_icon_standard_task" category="icon-background-color">#FF4BC076</color>
 	<color name="slds_icon_standard_task_2" category="icon-background-color">#FF4BC076</color>
 	<color name="slds_icon_standard_team_member" category="icon-background-color">#FFF2CF5B</color>
+	<color name="slds_icon_standard_template" category="icon-background-color">#FF3C97DD</color>
 	<color name="slds_icon_standard_thanks" category="icon-background-color">#FFE9696E</color>
 	<color name="slds_icon_standard_thanks_loading" category="icon-background-color">#FFB8C3CE</color>
+	<color name="slds_icon_standard_timesheet" category="icon-background-color">#FF7E8BE4</color>
+	<color name="slds_icon_standard_timesheet_entry" category="icon-background-color">#FF7DC37D</color>
 	<color name="slds_icon_standard_timeslot" category="icon-background-color">#FFFAB24C</color>
 	<color name="slds_icon_standard_today" category="icon-background-color">#FFEF7EAD</color>
 	<color name="slds_icon_standard_topic" category="icon-background-color">#FF56AADF</color>
+	<color name="slds_icon_standard_topic_2" category="icon-background-color">#FF56AAD0</color>
 	<color name="slds_icon_standard_unmatched" category="icon-background-color">#FF62B7ED</color>
 	<color name="slds_icon_standard_user" category="icon-background-color">#FF34BECD</color>
 	<color name="slds_icon_standard_work_order" category="icon-background-color">#FF50E3C2</color>
