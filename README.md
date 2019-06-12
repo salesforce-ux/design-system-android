@@ -31,7 +31,7 @@ Sync the Gradle Scripts, and perform a Gradle build.
 
 ### Import Icons
 
-Add the following import statment to any file which requires the use of Design System icons:
+Add the following import statement to any file which requires the use of Design System icons:
 
 ```
 import com.salesforce.designsystem.Icons;
