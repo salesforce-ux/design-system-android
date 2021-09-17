@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
 
 version = '3.1.0'
 group = 'com.salesforce.ux'
@@ -88,20 +87,3 @@ install {
     }
 }
 
-bintray {
-    user = System.getenv('BINTRAY_USER')
-    key = System.getenv('BINTRAY_KEY')
-    configurations = ['archives']
-    pkg {
-        repo = 'salesforce-ux'
-        name = 'SalesforceDesignSystem'
-        userOrg = 'salesforce-ux'
-        licenses = ['BSD 3-Clause']
-        vcsUrl = 'https://github.com/salesforce-ux/design-system-android.git'
-        labels = ['android', 'salesforce', 'lightning', 'slds']
-        version {
-            name = version
-            released = new Date()
-        }
-    }
-}
