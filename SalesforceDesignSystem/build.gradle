@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
 
 version = '3.1.0'
 group = 'com.salesforce.ux'
@@ -50,33 +50,34 @@ artifacts {
     archives sourcesJar
 }
 
-install {
-    repositories.mavenInstaller {
-        pom {
-            project {
-                name 'SalesforceDesignSystem'
-                url 'https://github.com/salesforce-ux/design-system-android'
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
 
-                packaging 'aar'
-                version version
+                pom {
+                    name = 'SalesforceDesignSystem'
+                    url = 'https://github.com/salesforce-ux/design-system-android'
 
-                licenses {
-                    license {
-                        name 'BSD 3-clause'
-                        url 'https://github.com/salesforce-ux/design-system-android/blob/master/LICENSE.txt'
+                    licenses {
+                        license {
+                            name = 'BSD 3-clause'
+                            url = 'https://github.com/salesforce-ux/design-system-android/blob/master/LICENSE.txt'
+                        }
                     }
-                }
 
-                developers {
-                    developer {
-                        name 'Salesforce UX'
+                    developers {
+                        developer {
+                            name = 'Salesforce UX'
+                        }
                     }
-                }
 
-                scm {
-                    connection 'https://github.com/salesforce-ux/design-system-android.git'
-                    developerConnection 'https://github.com/salesforce-ux/design-system-android.git'
-                    url 'https://github.com/salesforce-ux/design-system-android'
+                    scm {
+                        connection = 'https://github.com/salesforce-ux/design-system-android.git'
+                        developerConnection = 'https://github.com/salesforce-ux/design-system-android.git'
+                        url = 'https://github.com/salesforce-ux/design-system-android'
+                    }
                 }
             }
         }
